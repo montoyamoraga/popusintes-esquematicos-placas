@@ -2317,7 +2317,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "555 derecha\n1: a tierra\n2: a 3 de 555 izq\n3:\n4: a Vcc\n5: a tierra por C 100n\n6: a tierra por C 100n\n7: a 6, a tierra por C, a Vcc por R\n8: a Vcc"
+	(text "555 derecha\n1: a tierra\n2: a 3 de 555 izq\n3: a salida\n4: a Vcc\n5: a tierra por C 100n\n6: a tierra por C 100n\n7: a 6, a tierra por C, a Vcc por R\n8: a Vcc"
 		(exclude_from_sim no)
 		(at 17.78 124.206 0)
 		(effects
