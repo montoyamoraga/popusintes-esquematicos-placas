@@ -243,7 +243,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "rev-a"
+      "sch_revision": "rev-c"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -639,6 +639,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -651,7 +659,7 @@
         "uuid": "837c7b7b-d540-4609-998f-42c63488299f"
       }
     ],
-    "used_designators": "H1-5,J3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
