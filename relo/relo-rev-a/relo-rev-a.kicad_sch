@@ -6284,104 +6284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL072")
-		(at 185.42 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c3f9f23-405b-44a3-aed9-01978a6c439d")
-		(property "Reference" "U3"
-			(at 185.42 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL072"
-			(at 185.42 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 185.42 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 185.42 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "53ba320f-0eb9-446b-809c-c88f8c33ad13")
-		)
-		(pin "4"
-			(uuid "6c0b3128-a2f5-4faf-bf6d-76e219b9dfdd")
-		)
-		(pin "8"
-			(uuid "8974b18f-0927-45e5-beb1-cbd1d6b61be1")
-		)
-		(pin "2"
-			(uuid "5de63bbe-f6f9-48b6-a527-653a7f7a967f")
-		)
-		(pin "3"
-			(uuid "d9e8605c-d4b4-4cd9-8750-51faa8bb228a")
-		)
-		(pin "5"
-			(uuid "b65cbfd5-e024-4521-9e63-60fa01ba2666")
-		)
-		(pin "6"
-			(uuid "db248d64-a55a-4f90-b585-e4c054d971e6")
-		)
-		(pin "7"
-			(uuid "7f4c986e-9d95-47c1-aa7a-abe82048da31")
-		)
-		(instances
-			(project "relo-rev-a"
-				(path "/47102ddb-7bfb-47a7-a41b-809b4667894a"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 118.11 46.99 0)
 		(unit 1)
@@ -7543,7 +7445,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 215.9 72.39 0)
+		(at 185.42 149.86 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7554,7 +7456,7 @@
 		(fields_autoplaced yes)
 		(uuid "db79ea2f-dd1c-4f75-93d8-27181a52064d")
 		(property "Reference" "U2"
-			(at 215.9 62.23 0)
+			(at 185.42 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7564,7 +7466,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 215.9 64.77 0)
+			(at 185.42 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7574,7 +7476,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 72.39 0)
+			(at 185.42 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7585,7 +7487,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 215.9 72.39 0)
+			(at 185.42 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7596,7 +7498,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 215.9 72.39 0)
+			(at 185.42 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7607,28 +7509,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e62e5bb-e7cb-4d01-809c-d47c20d8d8fa")
+			(uuid "7e62e5bb-e7cb-4d01-809c-d47c20d8d8fb")
 		)
 		(pin "4"
-			(uuid "6c0b3128-a2f5-4faf-bf6d-76e219b9dfdd")
+			(uuid "6c0b3128-a2f5-4faf-bf6d-76e219b9dfdf")
 		)
 		(pin "8"
-			(uuid "8974b18f-0927-45e5-beb1-cbd1d6b61be1")
+			(uuid "8974b18f-0927-45e5-beb1-cbd1d6b61be3")
 		)
 		(pin "2"
-			(uuid "bafbb39b-54b1-4d9d-9ed4-876127d00019")
+			(uuid "bafbb39b-54b1-4d9d-9ed4-876127d0001a")
 		)
 		(pin "3"
-			(uuid "054d0dad-531e-4389-a80f-f398c1de5cbf")
+			(uuid "054d0dad-531e-4389-a80f-f398c1de5cc0")
 		)
 		(pin "5"
-			(uuid "b65cbfd5-e024-4521-9e63-60fa01ba2666")
+			(uuid "b65cbfd5-e024-4521-9e63-60fa01ba2668")
 		)
 		(pin "6"
-			(uuid "db248d64-a55a-4f90-b585-e4c054d971e6")
+			(uuid "db248d64-a55a-4f90-b585-e4c054d971e8")
 		)
 		(pin "7"
-			(uuid "7f4c986e-9d95-47c1-aa7a-abe82048da31")
+			(uuid "7f4c986e-9d95-47c1-aa7a-abe82048da33")
 		)
 		(instances
 			(project "relo-rev-a"
@@ -8219,28 +8121,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e62e5bb-e7cb-4d01-809c-d47c20d8d8fa")
+			(uuid "7e62e5bb-e7cb-4d01-809c-d47c20d8d8fc")
 		)
 		(pin "4"
-			(uuid "6c0b3128-a2f5-4faf-bf6d-76e219b9dfdd")
+			(uuid "6c0b3128-a2f5-4faf-bf6d-76e219b9dfe0")
 		)
 		(pin "8"
-			(uuid "8974b18f-0927-45e5-beb1-cbd1d6b61be1")
+			(uuid "8974b18f-0927-45e5-beb1-cbd1d6b61be4")
 		)
 		(pin "2"
-			(uuid "bafbb39b-54b1-4d9d-9ed4-876127d00019")
+			(uuid "bafbb39b-54b1-4d9d-9ed4-876127d0001b")
 		)
 		(pin "3"
-			(uuid "054d0dad-531e-4389-a80f-f398c1de5cbf")
+			(uuid "054d0dad-531e-4389-a80f-f398c1de5cc1")
 		)
 		(pin "5"
-			(uuid "b65cbfd5-e024-4521-9e63-60fa01ba2666")
+			(uuid "b65cbfd5-e024-4521-9e63-60fa01ba2669")
 		)
 		(pin "6"
-			(uuid "db248d64-a55a-4f90-b585-e4c054d971e6")
+			(uuid "db248d64-a55a-4f90-b585-e4c054d971e9")
 		)
 		(pin "7"
-			(uuid "7f4c986e-9d95-47c1-aa7a-abe82048da31")
+			(uuid "7f4c986e-9d95-47c1-aa7a-abe82048da34")
 		)
 		(instances
 			(project "relo-rev-a"
