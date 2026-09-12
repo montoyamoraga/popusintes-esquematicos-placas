@@ -1,6 +1,9 @@
 # Apple
 .DS_Store
 
+# Python
+env/
+
 # KiCAD
 ## Temporary files
 *.000
