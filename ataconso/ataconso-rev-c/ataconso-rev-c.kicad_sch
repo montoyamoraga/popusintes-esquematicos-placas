@@ -4909,7 +4909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 77.47 128.5748 0)
 			(hide yes)
 			(show_name no)
@@ -7505,7 +7505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 77.47 147.0152 0)
 			(hide yes)
 			(show_name no)
