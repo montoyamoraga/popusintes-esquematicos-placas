@@ -4222,7 +4222,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BYOM_General:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 215.9 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4306,7 +4306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 87.122 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -4463,7 +4463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5988,7 +5988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" ""
 			(at 28.702 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -6228,7 +6228,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BYOM_General:IDC-Header_2x05_P2.54mm_Vertical"
 			(at 120.65 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7474,7 +7474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 176.53 157.48 0)
 			(hide yes)
 			(show_name no)
