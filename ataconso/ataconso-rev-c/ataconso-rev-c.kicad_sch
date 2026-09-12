@@ -5487,7 +5487,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical"
+		(property "Footprint" "BYOM_General:POT_TH_Alps_RK09K_Single_Vertical"
 			(at 21.59 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7823,7 +7823,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical"
+		(property "Footprint" "BYOM_General:POT_TH_Alps_RK09K_Single_Vertical"
 			(at 88.9 27.94 0)
 			(hide yes)
 			(show_name no)
