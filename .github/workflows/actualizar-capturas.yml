@@ -35,7 +35,7 @@ jobs:
         run: |
           set -eu
 
-          KICAD_IMG="kicad/kicad:9.0"
+          KICAD_IMG="kicad/kicad:10.0"
           docker pull "$KICAD_IMG"
           KICAD="docker run --rm -v ${PWD}:/work -w /work $KICAD_IMG kicad-cli"
 
