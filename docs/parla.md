@@ -4,6 +4,14 @@
 
 - `v-0-rev-c`: única revisión presente en el repositorio.
 
+## Esquemático y placa (v-0-rev-c)
+
+Generados automáticamente por GitHub Actions a partir de `parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_sch` y `.kicad_pcb` en cada push que los modifica.
+
+![Esquemático de parla v-0-rev-c](./images/parla-esquematico.svg)
+
+![Placa de parla v-0-rev-c](./images/parla-placa.svg)
+
 ## Bill of materials (v-0-rev-c)
 
 Generado a partir de `parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_sch`.

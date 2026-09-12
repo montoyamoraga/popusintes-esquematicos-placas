@@ -6,6 +6,14 @@
 - `rev-b`: fabricado entre agosto y septiembre 2026, funcionó.
 - `rev-c`: revisión activa (en desarrollo). Es la que se documenta abajo.
 
+## Esquemático y placa (rev-c)
+
+Generados automáticamente por GitHub Actions a partir de `ataconso/ataconso-rev-c/ataconso-rev-c.kicad_sch` y `.kicad_pcb` en cada push que los modifica.
+
+![Esquemático de ataconso rev-c](./images/ataconso-esquematico.svg)
+
+![Placa de ataconso rev-c](./images/ataconso-placa.svg)
+
 ## Bill of materials (rev-c)
 
 Generado a partir de `ataconso/ataconso-rev-c/ataconso-rev-c.kicad_sch`.

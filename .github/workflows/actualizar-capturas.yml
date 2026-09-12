@@ -1,0 +1,92 @@
+name: Actualizar capturas de esquemáticos y placas
+
+# Genera una captura SVG del esquemático y de la placa de la revisión activa
+# de cada módulo, y las deja en docs/images/. Si se cambia la revisión activa
+# de un módulo (por ejemplo ataconso rev-c -> rev-d), hay que actualizar las
+# rutas de "paths" abajo y las llamadas a generar_esquematico/generar_placa.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "ataconso/ataconso-rev-c/ataconso-rev-c.kicad_sch"
+      - "ataconso/ataconso-rev-c/ataconso-rev-c.kicad_pcb"
+      - "parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_sch"
+      - "parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_pcb"
+      - "relo/relo-rev-a/relo-rev-a.kicad_sch"
+      - "relo/relo-rev-a/relo-rev-a.kicad_pcb"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  capturas:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Generar capturas con kicad-cli
+        run: |
+          set -eu
+
+          KICAD_IMG="kicad/kicad:9.0"
+          docker pull "$KICAD_IMG"
+          KICAD="docker run --rm -v ${PWD}:/work -w /work $KICAD_IMG kicad-cli"
+
+          mkdir -p docs/images
+          TMPDIR_REL="_captura_tmp"
+          rm -rf "$TMPDIR_REL"
+
+          generar_esquematico () {
+            modulo="$1"
+            entrada="$2"
+            outdir="$TMPDIR_REL/$modulo"
+            mkdir -p "$outdir"
+            $KICAD sch export svg --output "$outdir" "$entrada"
+            svg="$(find "$outdir" -maxdepth 1 -name '*.svg' | head -n1)"
+            if [ -z "$svg" ]; then
+              echo "No se generó SVG del esquemático para $modulo" >&2
+              exit 1
+            fi
+            mv "$svg" "docs/images/${modulo}-esquematico.svg"
+          }
+
+          generar_placa () {
+            modulo="$1"
+            entrada="$2"
+            $KICAD pcb export svg \
+              --layers "F.Cu,F.Mask,F.Silkscreen,Edge.Cuts" \
+              --mode-single \
+              --output "docs/images/${modulo}-placa.svg" \
+              "$entrada"
+          }
+
+          generar_esquematico ataconso ataconso/ataconso-rev-c/ataconso-rev-c.kicad_sch
+          generar_placa       ataconso ataconso/ataconso-rev-c/ataconso-rev-c.kicad_pcb
+
+          generar_esquematico parla parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_sch
+          generar_placa       parla parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_pcb
+
+          generar_esquematico relo relo/relo-rev-a/relo-rev-a.kicad_sch
+          generar_placa       relo relo/relo-rev-a/relo-rev-a.kicad_pcb
+
+          rm -rf "$TMPDIR_REL"
+
+      - name: Commit y push de las capturas si cambiaron
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/images
+          if git diff --cached --quiet; then
+            echo "Sin cambios en las capturas."
+            exit 0
+          fi
+          git commit -m "Actualizar capturas de esquemáticos y placas [skip ci]"
+          git push

@@ -4,6 +4,14 @@
 
 - `rev-a`: en progreso, septiembre 2026.
 
+## Esquemático y placa (rev-a)
+
+Generados automáticamente por GitHub Actions a partir de `relo/relo-rev-a/relo-rev-a.kicad_sch` y `.kicad_pcb` en cada push que los modifica.
+
+![Esquemático de relo rev-a](./images/relo-esquematico.svg)
+
+![Placa de relo rev-a](./images/relo-placa.svg)
+
 ## Bill of materials (rev-a)
 
 Generado a partir de `relo/relo-rev-a/relo-rev-a.kicad_sch`.
