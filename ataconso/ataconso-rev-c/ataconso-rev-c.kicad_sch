@@ -2625,121 +2625,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:-5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "-5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "-5V_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "-5V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2879,18 +2764,6 @@
 		(uuid "b194d333-a3bf-4e77-be70-ba854eb8d92a")
 	)
 	(junction
-		(at 154.94 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0040f926-7984-4fdb-845f-0e9a5fca670a")
-	)
-	(junction
-		(at 194.31 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "034daeb1-cf53-4106-bc1f-311a37e4a32b")
-	)
-	(junction
 		(at 194.31 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2957,12 +2830,6 @@
 		(uuid "7441bd2e-2bd1-440b-9ffe-c930c5b90429")
 	)
 	(junction
-		(at 184.15 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88dae641-b2ef-40ce-aa44-893304581652")
-	)
-	(junction
 		(at 144.78 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3017,16 +2884,6 @@
 	(no_connect
 		(at 241.3 58.42)
 		(uuid "e0c6f7b7-597c-424e-91e0-75d9528a9c3e")
-	)
-	(wire
-		(pts
-			(xy 173.99 140.97) (xy 173.99 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0962af89-da14-4ff3-bbb3-3aa52db924ba")
 	)
 	(wire
 		(pts
@@ -3220,16 +3077,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 140.97) (xy 210.82 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e8fa91d-58a0-496b-9bd7-6b978c70e268")
-	)
-	(wire
-		(pts
 			(xy 77.47 146.05) (xy 82.55 146.05)
 		)
 		(stroke
@@ -3257,16 +3104,6 @@
 			(type default)
 		)
 		(uuid "3ce3e4f6-46ec-49e6-9291-98da9f6bd6a3")
-	)
-	(wire
-		(pts
-			(xy 166.37 152.4) (xy 161.29 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e45c0cc-5c46-4931-9007-6edc8798973f")
 	)
 	(wire
 		(pts
@@ -3327,16 +3164,6 @@
 			(type default)
 		)
 		(uuid "4d348a1a-7b69-4c7f-b7e6-947e486386f0")
-	)
-	(wire
-		(pts
-			(xy 161.29 143.51) (xy 154.94 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d83b08e-028d-46d4-abb1-8ba21c342cdb")
 	)
 	(wire
 		(pts
@@ -3457,16 +3284,6 @@
 			(type default)
 		)
 		(uuid "65baf40b-43de-4b95-bf34-07919f5d08fe")
-	)
-	(wire
-		(pts
-			(xy 194.31 144.78) (xy 194.31 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66334277-d5e8-455f-b3b7-531d3f3148c6")
 	)
 	(wire
 		(pts
@@ -3700,16 +3517,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 152.4) (xy 184.15 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a483b203-7646-4945-b9ad-47cb92085e47")
-	)
-	(wire
-		(pts
 			(xy 107.95 135.89) (xy 113.03 135.89)
 		)
 		(stroke
@@ -3767,16 +3574,6 @@
 			(type default)
 		)
 		(uuid "b3155d18-f9fe-47da-a4ad-a9c66e5c4346")
-	)
-	(wire
-		(pts
-			(xy 184.15 152.4) (xy 194.31 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b678d2c8-135f-42d9-95b7-e6a4b465a48f")
 	)
 	(wire
 		(pts
@@ -4000,16 +3797,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 140.97) (xy 173.99 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb8f1e5c-7945-4dec-a8fb-d90182590f37")
-	)
-	(wire
-		(pts
 			(xy 60.96 146.05) (xy 69.85 146.05)
 		)
 		(stroke
@@ -4027,16 +3814,6 @@
 			(type default)
 		)
 		(uuid "eea18fa1-1bdf-4998-8998-218ba11fc015")
-	)
-	(wire
-		(pts
-			(xy 161.29 152.4) (xy 161.29 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb3862d-f6a1-43fc-90e5-2cee2f276faf")
 	)
 	(wire
 		(pts
@@ -4525,88 +4302,6 @@
 			(project "ataconso-rev-c"
 				(path "/837c7b7b-d540-4609-998f-42c63488299f"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 194.31 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fb13f68-be2e-45c9-8113-a03f8acf05da")
-		(property "Reference" "C10"
-			(at 198.12 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 198.12 149.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.2752 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 194.31 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "94b5f722-f5cd-45ef-9d51-a310b97ceb89")
-		)
-		(pin "1"
-			(uuid "6e2ee45c-0c40-483d-8763-8608bd3d96fc")
-		)
-		(instances
-			(project "ataconso-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5655,84 +5350,6 @@
 			(project "ataconso-rev-c"
 				(path "/837c7b7b-d540-4609-998f-42c63488299f"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5V")
-		(at 184.15 152.4 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5267e4c4-ccbd-406c-b5a6-41a88e1842a3")
-		(property "Reference" "#PWR023"
-			(at 184.15 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-5V"
-			(at 184.15 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 184.15 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87f717b6-d072-41a5-b442-b6873a4d237a")
-		)
-		(instances
-			(project "ataconso-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7028,84 +6645,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98453e31-89fc-423e-a59f-e2b157620d00")
-		(property "Reference" "#PWR027"
-			(at 210.82 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "759f66bc-a366-4bd1-a1af-329bd871a5a6")
-		)
-		(instances
-			(project "ataconso-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 210.82 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -7437,105 +6976,6 @@
 			(project "ataconso-rev-c"
 				(path "/837c7b7b-d540-4609-998f-42c63488299f"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:MC78L05_SO8")
-		(at 173.99 152.4 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c10046cd-1e3d-45b7-9149-510275011e8a")
-		(property "Reference" "U5"
-			(at 174.244 156.718 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MC78L05_SO8"
-			(at 174.244 159.004 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF"
-			(at 179.07 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8"
-			(at 173.99 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2fe97f2f-f8b4-4fd4-b8bf-653d736ad148")
-		)
-		(pin "4"
-			(uuid "ef323648-e389-4ac4-aaf0-75397da21879")
-		)
-		(pin "5"
-			(uuid "c1bb681f-afce-40bd-aa7a-6c1a7f9bcc33")
-		)
-		(pin "2"
-			(uuid "4e0ae400-2dc5-4004-a001-c2030f5280c2")
-		)
-		(pin "3"
-			(uuid "fbeabd1b-ba24-4ba3-ac4e-79545fa2a4b5")
-		)
-		(pin "7"
-			(uuid "bb3e1593-71d5-44ea-9b3b-dbdaf09150ba")
-		)
-		(pin "8"
-			(uuid "49f2fa86-7bab-4c4e-80dd-7a35be736353")
-		)
-		(pin "6"
-			(uuid "35567fcd-a6e3-4f22-aadf-df7fe03ef0bf")
-		)
-		(instances
-			(project "ataconso-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f"
-					(reference "U5")
 					(unit 1)
 				)
 			)
