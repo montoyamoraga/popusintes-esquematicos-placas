@@ -491,7 +491,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ataconso-rev-c.kicad_pro",
+    "filename": "ataconso-v-0-rev-c.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -654,7 +654,7 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ataconso-rev-c.kicad_sch",
+        "filename": "ataconso-v-0-rev-c.kicad_sch",
         "name": "Root",
         "uuid": "837c7b7b-d540-4609-998f-42c63488299f"
       }

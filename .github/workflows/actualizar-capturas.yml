@@ -9,12 +9,12 @@ on:
     branches:
       - main
     paths:
-      - "ataconso/ataconso-rev-c/ataconso-rev-c.kicad_sch"
-      - "ataconso/ataconso-rev-c/ataconso-rev-c.kicad_pcb"
+      - "ataconso/ataconso-v-0-rev-c/ataconso-v-0-rev-c.kicad_sch"
+      - "ataconso/ataconso-v-0-rev-c/ataconso-v-0-rev-c.kicad_pcb"
       - "parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_sch"
       - "parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_pcb"
-      - "relo/relo-rev-a/relo-rev-a.kicad_sch"
-      - "relo/relo-rev-a/relo-rev-a.kicad_pcb"
+      - "relo/relo-v-0-rev-a/relo-v-0-rev-a.kicad_sch"
+      - "relo/relo-v-0-rev-a/relo-v-0-rev-a.kicad_pcb"
   workflow_dispatch: {}
 
 permissions:
@@ -68,14 +68,14 @@ jobs:
               "$entrada"
           }
 
-          generar_esquematico ataconso ataconso/ataconso-rev-c/ataconso-rev-c.kicad_sch
-          generar_placa       ataconso ataconso/ataconso-rev-c/ataconso-rev-c.kicad_pcb
+          generar_esquematico ataconso ataconso/ataconso-v-0-rev-c/ataconso-v-0-rev-c.kicad_sch
+          generar_placa       ataconso ataconso/ataconso-v-0-rev-c/ataconso-v-0-rev-c.kicad_pcb
 
           generar_esquematico parla parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_sch
           generar_placa       parla parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_pcb
 
-          generar_esquematico relo relo/relo-rev-a/relo-rev-a.kicad_sch
-          generar_placa       relo relo/relo-rev-a/relo-rev-a.kicad_pcb
+          generar_esquematico relo relo/relo-v-0-rev-a/relo-v-0-rev-a.kicad_sch
+          generar_placa       relo relo/relo-v-0-rev-a/relo-v-0-rev-a.kicad_pcb
 
           rm -rf "$TMPDIR_REL"
 

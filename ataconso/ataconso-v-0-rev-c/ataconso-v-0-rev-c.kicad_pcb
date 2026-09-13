@@ -160,7 +160,7 @@
     (property ki_fp_filters "Potentiometer*") 
     (path "/fd926cfa-c5ce-4b14-bafd-830943c546ba") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -317,7 +317,7 @@
     (property ki_fp_filters "R_*") 
     (path "/5b845112-2aec-430e-9979-a768ec9f360c") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -456,7 +456,7 @@
           (size 1.27 1.27)))) 
     (path "/5a2665f2-5cc3-4a86-9f61-7ad764f620ba") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -690,7 +690,7 @@
     (property ki_fp_filters "LED* LED_SMD:* LED_THT:*") 
     (path "/c9a7785b-c0f7-4661-aea1-4a618b6beda4") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -858,7 +858,7 @@
     (property ki_fp_filters "C_*") 
     (path "/3fce4d50-1dbd-4b7d-a745-d021c128bf7d") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -1015,7 +1015,7 @@
     (property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*") 
     (path "/5436a69b-7c1c-41ee-9d24-2c1c6051e36c") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -1290,7 +1290,7 @@
     (property ki_fp_filters "C_*") 
     (path "/3285fb12-b54e-4b7f-8709-f9121d5d586c") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -1447,7 +1447,7 @@
     (property ki_fp_filters "R_*") 
     (path "/12a6adc3-7d2e-4578-8121-596a22ce94fa") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -1597,7 +1597,7 @@
     (property ki_fp_filters "C_*") 
     (path "/5bca02ec-eee9-4232-9d2f-fb08c6d6e828") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -1754,7 +1754,7 @@
     (property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*") 
     (path "/a92e8120-6c96-496b-99a7-e100b28f801e") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -2049,7 +2049,7 @@
     (property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*") 
     (path "/c28bf567-1c02-41b7-a6ec-3dd8e1c8dee9") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -2266,7 +2266,7 @@
     (property ki_fp_filters "CP_*") 
     (path "/a372f19f-5180-47b5-8f00-26bff117f271") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -3361,7 +3361,7 @@
     (property ki_fp_filters "C_*") 
     (path "/c6f5b37f-6995-4be7-93ef-22d8d61caf36") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -3548,7 +3548,7 @@
     (property ki_fp_filters "Potentiometer*") 
     (path "/593784a5-62f6-42c6-a793-38602a7e4943") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -3700,7 +3700,7 @@
     (property ki_fp_filters "BarrelJack*") 
     (path "/1debca74-42f5-453a-9f92-efdbef921f15") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -4018,7 +4018,7 @@
     (property ki_fp_filters "R_*") 
     (path "/31bf31b6-b044-42ab-84d0-6abd4cc3229b") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
@@ -4168,7 +4168,7 @@
     (property ki_fp_filters "TerminalBlock*:*") 
     (path "/8ca1cd3b-a429-4b1a-9b0c-34cb37ce316f") 
     (sheetname "/") 
-    (sheetfile "ataconso-rev-c.kicad_sch") 
+    (sheetfile "ataconso-v-0-rev-c.kicad_sch") 
     (units 
       (unit 
         (name "A") 
