@@ -6278,7 +6278,7 @@
 			)
 		)
 	)
-	(footprint "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
+	(footprint "BYOM_General:IDC-Header_2x05_P2.54mm_Vertical"
 		(layer "B.Cu")
 		(uuid "1a55ea7f-68ec-40b0-802d-71a9a81f901e")
 		(at 57.62 55 -90)

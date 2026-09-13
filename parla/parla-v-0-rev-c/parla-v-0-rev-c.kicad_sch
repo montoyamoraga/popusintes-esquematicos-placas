@@ -3629,7 +3629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
+		(property "Footprint" "BYOM_General:IDC-Header_2x05_P2.54mm_Vertical"
 			(at 36.83 163.83 0)
 			(hide yes)
 			(show_name no)
