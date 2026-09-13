@@ -26,6 +26,7 @@ concurrency:
 
 jobs:
   capturas:
+    if: github.repository == 'piruetasxyz/popusintes-esquematicos-placas'
     runs-on: ubuntu-latest
     steps:
       - name: Clonar repositorio
