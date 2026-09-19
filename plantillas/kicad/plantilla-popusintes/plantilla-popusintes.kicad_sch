@@ -5,7 +5,48 @@
   (uuid "76d7d92c-1316-4bcb-a187-c7124ef49ded")
   (paper "A4")
   (lib_symbols)
+  (sheet
+    (at 25.4 25.4)
+    (size 40.64 20.32)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb")
+    (property "Sheetname" "Fuente de alimentación"
+      (at 25.4 24.5219 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "../../../bloques/fuente-alimentacion/fuente-alimentacion.kicad_sch"
+      (at 25.4 46.0219 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "plantilla-popusintes"
+        (path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
+          (page "2")
+        )
+      )
+    )
+  )
   (sheet_instances
     (path "/"
-      (page "1")))
-  (embedded_fonts no))
+      (page "1")
+    )
+  )
+  (embedded_fonts no)
+)
