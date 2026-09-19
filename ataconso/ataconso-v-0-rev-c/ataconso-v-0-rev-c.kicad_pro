@@ -659,13 +659,17 @@
         "uuid": "837c7b7b-d540-4609-998f-42c63488299f"
       }
     ],
-    "used_designators": "U2,J1",
+    "used_designators": "RV1-2,R1-3,J1-2,#FLG1-4,U1-3,#PWR1-33,C1-11,D1-2",
     "variants": []
   },
   "sheets": [
     [
       "837c7b7b-d540-4609-998f-42c63488299f",
       "Root"
+    ],
+    [
+      "41a83f6d-c126-4f0f-b09b-01d99682d42c",
+      "fuente-poder"
     ]
   ],
   "text_variables": {},
