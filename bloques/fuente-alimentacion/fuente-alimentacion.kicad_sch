@@ -2045,16 +2045,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 30.48) (xy 67.31 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c72ff815-8da0-46fa-bdaf-158dc3d75929")
-	)
-	(wire
-		(pts
 			(xy 60.96 74.93) (xy 60.96 73.66)
 		)
 		(stroke
@@ -2082,16 +2072,6 @@
 			(type default)
 		)
 		(uuid "d6e8a1a1-3d85-413b-bacd-f10cf27bb43e")
-	)
-	(wire
-		(pts
-			(xy 85.09 39.37) (xy 85.09 40.005)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddf041e3-2f29-4f23-a87e-ecd833cf64a5")
 	)
 	(wire
 		(pts
@@ -2165,7 +2145,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0569eb20-7cc6-4c0b-a6d9-cd7d8491ba80")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 40.64 60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2255,7 +2235,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "J1")
 					(unit 1)
@@ -2281,7 +2261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "058ba60b-633b-4682-b4b0-c6f170732577")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR015"
 			(at 121.92 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2345,7 +2325,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#PWR015")
 					(unit 1)
@@ -2437,7 +2417,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "D2")
 					(unit 1)
@@ -2527,7 +2507,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#FLG01")
 					(unit 1)
@@ -2553,7 +2533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10603540-d858-49bf-bf59-0a5760a0c8de")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR019"
 			(at 44.45 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -2617,7 +2597,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#PWR019")
 					(unit 1)
@@ -2643,7 +2623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2292da7c-086f-4a89-ad14-76351e7d2536")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR08"
 			(at 87.63 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2707,7 +2687,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#PWR08")
 					(unit 1)
@@ -2732,7 +2712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f2e13b9-d965-4d89-a27a-d64b404423c2")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 95.25 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2814,7 +2794,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "U1")
 					(unit 1)
@@ -2823,96 +2803,6 @@
 			(project "ataconso-v-0-rev-c"
 				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 85.09 40.005 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fa27452-6435-4bf5-b089-e572b599ccf9")
-		(property "Reference" "#PWR027"
-			(at 85.09 46.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 45.085 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 40.005 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 40.005 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 40.005 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ad96a98-9128-468b-bd43-88d758e3f783")
-		)
-		(instances
-			(project "fuente-alimentacion"
-				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-			(project "plantilla-popusintes"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2994,7 +2884,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#FLG03")
 					(unit 1)
@@ -3086,7 +2976,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "D1")
 					(unit 1)
@@ -3112,7 +3002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46c8f23b-11be-452b-86d7-0aa5c4c5515e")
-		(property "Reference" "C11"
+		(property "Reference" "C5"
 			(at 125.73 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3191,7 +3081,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "C5")
 					(unit 1)
@@ -3281,7 +3171,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#FLG02")
 					(unit 1)
@@ -3296,8 +3186,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 58.42 30.48 0)
+		(lib_id "power:GND")
+		(at 55.88 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3306,9 +3196,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "65409d93-db6c-4a96-8797-25cfe118f9b9")
-		(property "Reference" "#FLG04"
-			(at 58.42 28.575 0)
+		(uuid "4e50ad28-53a6-4b71-929a-cc19c6b77a7c")
+		(property "Reference" "#PWR017"
+			(at 55.88 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3318,8 +3208,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 58.42 25.4 0)
+		(property "Value" "GND"
+			(at 55.88 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3329,7 +3219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 30.48 0)
+			(at 55.88 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3340,7 +3230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 30.48 0)
+			(at 55.88 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3350,8 +3240,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 58.42 30.48 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3362,24 +3252,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ad5b230-6a31-49e5-ba46-550012cf5112")
+			(uuid "e248c1d2-c220-4664-9701-2440aa2b90c9")
 		)
 		(instances
 			(project "fuente-alimentacion"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-			(project "plantilla-popusintes"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
-					(reference "#FLG04")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3397,7 +3275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65d09f88-6afc-4dec-a789-dddbffe963ad")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR04"
 			(at 60.96 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3461,7 +3339,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#PWR04")
 					(unit 1)
@@ -3477,7 +3355,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 85.09 31.75 0)
+		(at 55.88 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3487,8 +3365,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68994924-8b5e-4e8e-86c9-14519caa2f05")
-		(property "Reference" "#PWR026"
-			(at 85.09 35.56 0)
+		(property "Reference" "#PWR016"
+			(at 55.88 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3499,7 +3377,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 85.09 26.67 0)
+			(at 55.88 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3509,7 +3387,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 31.75 0)
+			(at 55.88 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3520,7 +3398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 31.75 0)
+			(at 55.88 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3531,7 +3409,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 85.09 31.75 0)
+			(at 55.88 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3551,7 +3429,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#PWR016")
 					(unit 1)
@@ -3567,7 +3445,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 85.09 35.56 0)
+		(at 55.88 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3577,8 +3455,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68e3c69f-2a24-450a-ba5f-7b655525b210")
-		(property "Reference" "C9"
-			(at 88.265 33.4009 0)
+		(property "Reference" "C6"
+			(at 59.055 32.1309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3589,7 +3467,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 88.265 35.9409 0)
+			(at 59.055 34.6709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3600,7 +3478,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 86.0552 39.37 0)
+			(at 56.8452 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3611,7 +3489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 35.56 0)
+			(at 55.88 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3622,7 +3500,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 85.09 35.56 0)
+			(at 55.88 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3633,7 +3511,7 @@
 			)
 		)
 		(property "LCSC" "C3342"
-			(at 85.09 35.56 0)
+			(at 55.88 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3656,7 +3534,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "C6")
 					(unit 1)
@@ -3682,7 +3560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77f11447-27de-49ac-ae90-e5bf0fa412f3")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR01"
 			(at 20.32 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3746,7 +3624,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#PWR01")
 					(unit 1)
@@ -3772,7 +3650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d7a3c49-1da6-47b9-88c1-77d10c8c6f03")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR014"
 			(at 121.92 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3836,7 +3714,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#PWR014")
 					(unit 1)
@@ -3862,7 +3740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8da0d14c-db75-47d1-8cce-08808622a635")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR07"
 			(at 87.63 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3926,7 +3804,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#PWR07")
 					(unit 1)
@@ -3935,96 +3813,6 @@
 			(project "ataconso-v-0-rev-c"
 				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 67.31 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a39eb62f-7ad3-404c-a5d7-4826b2214939")
-		(property "Reference" "#PWR025"
-			(at 67.31 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 67.31 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 67.31 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "78630d05-80f7-411d-adb8-49f48b934e66")
-		)
-		(instances
-			(project "fuente-alimentacion"
-				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-			(project "plantilla-popusintes"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4042,7 +3830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa3a6948-7234-47dc-85b6-7b02bbd53748")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR020"
 			(at 44.45 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4106,7 +3894,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#PWR020")
 					(unit 1)
@@ -4131,7 +3919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4d7da5f-38e8-4548-89ba-9038cf9c5de5")
-		(property "Reference" "C10"
+		(property "Reference" "C4"
 			(at 111.76 74.0409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4210,7 +3998,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "C4")
 					(unit 1)
@@ -4236,7 +4024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7ded9ff-77f5-47e7-a0a5-f784d99e32d7")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR011"
 			(at 107.95 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4300,7 +4088,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#PWR011")
 					(unit 1)
@@ -4326,7 +4114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbdc4012-ffba-4243-a989-5960ab31172b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR018"
 			(at 22.86 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4390,7 +4178,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#PWR018")
 					(unit 1)
@@ -4416,7 +4204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d18bdb01-8aa4-4ce9-ac87-423d3a87a2ce")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR09"
 			(at 95.25 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4480,7 +4268,7 @@
 					(unit 1)
 				)
 			)
-			(project "plantilla-popusintes"
+			(project "suma-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
 					(reference "#PWR09")
 					(unit 1)
@@ -4494,4 +4282,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
