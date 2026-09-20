@@ -1,9 +1,11 @@
 name: Actualizar capturas de esquemáticos y placas
 
 # Genera una captura SVG del esquemático y de la placa de la revisión activa
-# de cada módulo, y las deja en docs/images/. Si se cambia la revisión activa
-# de un módulo (por ejemplo ataconso rev-c -> rev-d), hay que actualizar las
-# rutas de "paths" abajo y las llamadas a generar_esquematico/generar_placa.
+# de cada módulo, y las deja en docs/images/. También regenera la tabla de
+# Bill of materials en docs/*.md (ver docs/generar_bom.py). Si se cambia la
+# revisión activa de un módulo (por ejemplo ataconso rev-c -> rev-d), hay que
+# actualizar las rutas de "paths" abajo, las llamadas a
+# generar_esquematico/generar_placa, y MODULOS en docs/generar_bom.py.
 on:
   push:
     branches:
@@ -17,6 +19,10 @@ on:
       - "relo/relo-v-0-rev-a/relo-v-0-rev-a.kicad_pcb"
       - "suma/suma-v-0-rev-a/suma-v-0-rev-a.kicad_sch"
       - "suma/suma-v-0-rev-a/suma-v-0-rev-a.kicad_pcb"
+      # bloques/ son hojas jerárquicas que se insertan dentro de los .kicad_sch
+      # de arriba: un cambio acá no toca esos archivos, pero sí cambia su BOM
+      # aplanado y su esquemático renderizado, así que también dispara esto.
+      - "bloques/**/*.kicad_sch"
   workflow_dispatch: {}
 
 permissions:
@@ -84,15 +90,22 @@ jobs:
 
           rm -rf "$TMPDIR_REL"
 
-      - name: Commit y push de las capturas si cambiaron
+          # Reexportamos KICAD como KICAD_CLI para que generar_bom.py use el
+          # mismo kicad-cli en docker, en vez de buscarlo en el PATH del runner.
+          echo "KICAD_CLI=$KICAD" >> "$GITHUB_ENV"
+
+      - name: Actualizar Bill of materials en docs/
+        run: python3 docs/generar_bom.py
+
+      - name: Commit y push de las capturas y BOM si cambiaron
         run: |
           set -eu
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/images
+          git add docs/images docs/ataconso.md docs/parla.md docs/relo.md docs/suma.md
           if git diff --cached --quiet; then
-            echo "Sin cambios en las capturas."
+            echo "Sin cambios en las capturas ni la BOM."
             exit 0
           fi
-          git commit -m "Actualizar capturas de esquemáticos y placas [skip ci]"
+          git commit -m "Actualizar capturas y BOM de esquemáticos y placas [skip ci]"
           git push
