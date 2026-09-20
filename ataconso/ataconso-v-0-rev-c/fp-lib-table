@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ataconso-v-0-rev-c") (type "KiCad") (uri "${KIPRJMOD}/bibliotecas/ataconso-v-0-rev-c.pretty") (options "") (descr "biblioteca local, copiada de bibliotecas/byom para hacer el proyecto autocontenido"))
+)

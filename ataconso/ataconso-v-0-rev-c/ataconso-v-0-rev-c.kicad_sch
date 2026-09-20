@@ -2810,7 +2810,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BYOM_General:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "ataconso-v-0-rev-c:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 180.34 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3942,7 +3942,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BYOM_General:POT_TH_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "ataconso-v-0-rev-c:POT_TH_Alps_RK09K_Single_Vertical"
 			(at 21.59 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5758,7 +5758,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BYOM_General:POT_TH_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "ataconso-v-0-rev-c:POT_TH_Alps_RK09K_Single_Vertical"
 			(at 81.28 27.94 0)
 			(hide yes)
 			(show_name no)

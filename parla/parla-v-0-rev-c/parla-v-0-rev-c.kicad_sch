@@ -3618,7 +3618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BYOM_General:IDC-Header_2x05_P2.54mm_Vertical"
+		(property "Footprint" "parla-v-0-rev-c:IDC-Header_2x05_P2.54mm_Vertical"
 			(at 36.83 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -3800,7 +3800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOD-123FL_L2.8-W1.8-LS3.7-R-RD"
+		(property "Footprint" "parla-v-0-rev-c:SOD-123FL_L2.8-W1.8-LS3.7-R-RD"
 			(at 72.39 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -4443,7 +4443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOD-123FL_L2.8-W1.8-LS3.7-R-RD"
+		(property "Footprint" "parla-v-0-rev-c:SOD-123FL_L2.8-W1.8-LS3.7-R-RD"
 			(at 72.39 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -5013,7 +5013,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BYOM_General:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "parla-v-0-rev-c:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 92.71 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5893,7 +5893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BYOM_General:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "parla-v-0-rev-c:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 204.47 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6135,7 +6135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BYOM_General:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "parla-v-0-rev-c:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 203.2 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6220,7 +6220,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BYOM_General:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "parla-v-0-rev-c:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 92.71 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6475,7 +6475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BYOM_General:POT_TH_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "parla-v-0-rev-c:POT_TH_Alps_RK09K_Single_Vertical"
 			(at 111.76 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7009,7 +7009,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BYOM_General:POT_TH_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "parla-v-0-rev-c:POT_TH_Alps_RK09K_Single_Vertical"
 			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
