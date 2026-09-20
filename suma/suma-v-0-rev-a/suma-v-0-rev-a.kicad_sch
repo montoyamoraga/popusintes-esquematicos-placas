@@ -2052,7 +2052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 29.21 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2291,7 +2291,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:R0805"
 			(at 74.93 103.632 90)
 			(hide yes)
 			(show_name no)
@@ -2370,7 +2370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 184.15 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2455,7 +2455,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:POT_TH_Alps_RK09K_Single_Vertical"
 			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2727,7 +2727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:R0805"
 			(at 74.93 129.032 90)
 			(hide yes)
 			(show_name no)
@@ -2809,7 +2809,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:POT_TH_Alps_RK09K_Single_Vertical"
 			(at 59.69 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2925,7 +2925,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:R0805"
 			(at 170.18 85.852 90)
 			(hide yes)
 			(show_name no)
@@ -3085,7 +3085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 128.27 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -3261,7 +3261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:R0805"
 			(at 170.18 66.802 90)
 			(hide yes)
 			(show_name no)
@@ -3343,7 +3343,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:POT_TH_Alps_RK09K_Single_Vertical"
 			(at 59.69 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3459,7 +3459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:R0805"
 			(at 74.93 78.232 90)
 			(hide yes)
 			(show_name no)
@@ -3539,7 +3539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 104.14 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3637,7 +3637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 29.21 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3720,7 +3720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:R0805"
 			(at 128.27 64.262 90)
 			(hide yes)
 			(show_name no)
@@ -3800,7 +3800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:R0805"
 			(at 74.93 52.832 90)
 			(hide yes)
 			(show_name no)
@@ -3882,7 +3882,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:POT_TH_Alps_RK09K_Single_Vertical"
 			(at 59.69 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3998,7 +3998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 29.21 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4080,7 +4080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 184.15 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4163,7 +4163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 147.32 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4261,7 +4261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:R0805"
 			(at 104.14 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -4341,7 +4341,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:R0805"
 			(at 146.05 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -4499,7 +4499,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "suma-v-0-rev-a:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 29.21 41.91 0)
 			(hide yes)
 			(show_name no)

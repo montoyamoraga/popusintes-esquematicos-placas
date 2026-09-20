@@ -7,6 +7,7 @@ Parte de la tesis de Aarón Montoya-Moraga, en el Doctorado de Artes y Humanidad
 - [ataconso](./docs/ataconso.md)
 - [parla](./docs/parla.md)
 - [relo](./docs/relo.md)
+- [suma](./docs/suma.md)
 
 ## Desarrollo
 

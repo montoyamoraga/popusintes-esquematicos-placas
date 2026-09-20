@@ -15,6 +15,8 @@ on:
       - "parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_pcb"
       - "relo/relo-v-0-rev-a/relo-v-0-rev-a.kicad_sch"
       - "relo/relo-v-0-rev-a/relo-v-0-rev-a.kicad_pcb"
+      - "suma/suma-v-0-rev-a/suma-v-0-rev-a.kicad_sch"
+      - "suma/suma-v-0-rev-a/suma-v-0-rev-a.kicad_pcb"
   workflow_dispatch: {}
 
 permissions:
@@ -76,6 +78,9 @@ jobs:
 
           generar_esquematico relo relo/relo-v-0-rev-a/relo-v-0-rev-a.kicad_sch
           generar_placa       relo relo/relo-v-0-rev-a/relo-v-0-rev-a.kicad_pcb
+
+          generar_esquematico suma suma/suma-v-0-rev-a/suma-v-0-rev-a.kicad_sch
+          generar_placa       suma suma/suma-v-0-rev-a/suma-v-0-rev-a.kicad_pcb
 
           rm -rf "$TMPDIR_REL"
 
