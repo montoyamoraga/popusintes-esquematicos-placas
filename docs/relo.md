@@ -22,7 +22,7 @@ Esta revisión está en progreso: algunos componentes todavía tienen el valor p
 | Referencias | Cantidad | Valor | Huella | Descripción |
 | --- | --- | --- | --- | --- |
 | C1, C2 | 2 | 1u | *(sin huella asignada)* | Capacitor electrolítico |
-| C3, C4 | 2 | 100n | *(sin huella asignada)* | Capacitor cerámico |
+| C3, C4 | 2 | 100n | Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder | Capacitor cerámico |
 | C5, C6 | 2 | C_Polarized | *(sin huella asignada)* | Capacitor electrolítico |
 | D1, D2 | 2 | D_Schottky | *(sin huella asignada)* | Diodo Schottky |
 | J1 | 1 | Conn_02x05_Odd_Even | relo-v-0-rev-a:IDC-Header_2x05_P2.54mm_Vertical | Header de alimentación Eurorack (10 pines) |

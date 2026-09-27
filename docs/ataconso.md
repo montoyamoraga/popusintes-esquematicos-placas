@@ -21,7 +21,7 @@ Generado a partir de `ataconso/ataconso-v-0-rev-c/ataconso-v-0-rev-c.kicad_sch`.
 <!-- BOM_TABLE_START -->
 | Referencias | Cantidad | Valor | Huella | Descripción |
 | --- | --- | --- | --- | --- |
-| C1, C2, C3, C4, C5, C6, C8 | 7 | 100n | *(sin huella asignada)* | Capacitor cerámico |
+| C1, C2, C3, C4, C5, C6, C8 | 7 | 100n | Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder | Capacitor cerámico |
 | C7 | 1 | 1u | *(sin huella asignada)* | Capacitor electrolítico |
 | D1, D2 | 2 | D_Schottky | easyeda2kicad:SOD-123FL_L2.8-W1.8-LS3.7-R-RD | Diodo Schottky |
 | J1 | 1 | AudioJack2_SwitchT | ataconso-v-0-rev-c:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical | Jack de audio 3.5mm |
