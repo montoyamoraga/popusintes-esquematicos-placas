@@ -4506,7 +4506,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb/46913fb4-195b-42bc-9150-d6c7b2c1d91d")
 		(sheetname "/Fuente de alimentación/")
-		(sheetfile "../../bloques/fuente-alimentacion/fuente-alimentacion.kicad_sch")
+		(sheetfile "fuente-alimentacion.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5532,7 +5532,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb/0cbfc0d6-ac41-4171-87b9-824ebcac50da")
 		(sheetname "/Fuente de alimentación/")
-		(sheetfile "../../bloques/fuente-alimentacion/fuente-alimentacion.kicad_sch")
+		(sheetfile "fuente-alimentacion.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5965,7 +5965,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb/0569eb20-7cc6-4c0b-a6d9-cd7d8491ba80")
 		(sheetname "/Fuente de alimentación/")
-		(sheetfile "../../bloques/fuente-alimentacion/fuente-alimentacion.kicad_sch")
+		(sheetfile "fuente-alimentacion.kicad_sch")
 		(units
 			(unit
 				(name "A")

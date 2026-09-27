@@ -5,9 +5,7 @@
 	(uuid "18618645-9a77-4e72-b23c-6571e7d4792b")
 	(paper "A5")
 	(title_block
-		(title "ataconso-v-0")
-		(date "2026-09-06")
-		(rev "rev-c")
+		(title "fuente-alimentacion")
 		(company "piruetas SpA")
 	)
 	(lib_symbols
@@ -1508,18 +1506,6 @@
 					(unit 1)
 				)
 			)
-			(project "suma-v-0-rev-a"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
-					(reference "J2")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1596,18 +1582,6 @@
 		(instances
 			(project "fuente-alimentacion"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "suma-v-0-rev-a"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
 					(reference "D2")
 					(unit 1)
 				)
@@ -1690,18 +1664,6 @@
 					(unit 1)
 				)
 			)
-			(project "suma-v-0-rev-a"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1777,18 +1739,6 @@
 			(project "fuente-alimentacion"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-			(project "suma-v-0-rev-a"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1870,18 +1820,6 @@
 					(unit 1)
 				)
 			)
-			(project "suma-v-0-rev-a"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1956,18 +1894,6 @@
 		(instances
 			(project "fuente-alimentacion"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-			(project "suma-v-0-rev-a"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
 					(reference "#FLG03")
 					(unit 1)
 				)
@@ -2052,18 +1978,6 @@
 					(unit 1)
 				)
 			)
-			(project "suma-v-0-rev-a"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
-					(reference "D1")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2138,18 +2052,6 @@
 		(instances
 			(project "fuente-alimentacion"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-			(project "suma-v-0-rev-a"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
 					(reference "#FLG02")
 					(unit 1)
 				)
@@ -2232,18 +2134,6 @@
 					(unit 1)
 				)
 			)
-			(project "suma-v-0-rev-a"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2319,18 +2209,6 @@
 			(project "fuente-alimentacion"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-			(project "suma-v-0-rev-a"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2412,18 +2290,6 @@
 					(unit 1)
 				)
 			)
-			(project "suma-v-0-rev-a"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2502,18 +2368,6 @@
 					(unit 1)
 				)
 			)
-			(project "suma-v-0-rev-a"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2589,18 +2443,6 @@
 			(project "fuente-alimentacion"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-			(project "suma-v-0-rev-a"
-				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded/5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-			(project "ataconso-v-0-rev-c"
-				(path "/837c7b7b-d540-4609-998f-42c63488299f/41a83f6d-c126-4f0f-b09b-01d99682d42c"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
