@@ -2729,7 +2729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 171.45 59.9948 0)
 			(hide yes)
 			(show_name no)
@@ -2752,6 +2752,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 167.64 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3444,7 +3455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 80.3148 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3467,6 +3478,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 81.28 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 81.28 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3622,7 +3644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 76.2 100.6348 0)
 			(hide yes)
 			(show_name no)
@@ -3645,6 +3667,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 72.39 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 72.39 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3782,7 +3815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 32.0548 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3805,6 +3838,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 33.02 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 33.02 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4142,7 +4186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 54.9148 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4165,6 +4209,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 55.88 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 55.88 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5068,7 +5123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 95.5548 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5091,6 +5146,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 96.52 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 96.52 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5518,7 +5584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 76.2 119.0752 0)
 			(hide yes)
 			(show_name no)
@@ -5541,6 +5607,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 72.39 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 72.39 118.11 0)
 			(hide yes)
 			(show_name no)

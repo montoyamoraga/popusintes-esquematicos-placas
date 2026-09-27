@@ -1,0 +1,5 @@
+{
+  "description": "Por ahora idéntico a alimentacion-12v: conector eurorack 2x05 con diodos Schottky de protección contra polaridad inversa en +12V y -12V. Pensado para agregarle la rama de +5V.",
+  "keywords": "eurorack alimentacion fuente power 12V 5V schottky",
+  "fields": {}
+}

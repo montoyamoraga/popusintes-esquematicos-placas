@@ -5,7 +5,7 @@
 	(uuid "18618645-9a77-4e72-b23c-6571e7d4792b")
 	(paper "A5")
 	(title_block
-		(title "fuente-alimentacion")
+		(title "alimentacion-12v")
 		(company "piruetas SpA")
 	)
 	(lib_symbols
@@ -1500,7 +1500,7 @@
 			(uuid "9f7695cb-23b5-4479-a14b-3fd4c2303dfe")
 		)
 		(instances
-			(project "fuente-alimentacion"
+			(project "alimentacion-12v"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "J1")
 					(unit 1)
@@ -1580,7 +1580,7 @@
 			(uuid "caaee7ec-e5d2-45a7-b83b-c3d530d2d526")
 		)
 		(instances
-			(project "fuente-alimentacion"
+			(project "alimentacion-12v"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "D2")
 					(unit 1)
@@ -1658,7 +1658,7 @@
 			(uuid "382cb129-c7b1-4a14-9dd8-dcf69766b765")
 		)
 		(instances
-			(project "fuente-alimentacion"
+			(project "alimentacion-12v"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "#FLG01")
 					(unit 1)
@@ -1736,7 +1736,7 @@
 			(uuid "403eb5dc-b06a-4e01-9611-a75e0d97bff1")
 		)
 		(instances
-			(project "fuente-alimentacion"
+			(project "alimentacion-12v"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "#PWR019")
 					(unit 1)
@@ -1814,7 +1814,7 @@
 			(uuid "743424e2-b99e-4753-b652-1a3ee5839d42")
 		)
 		(instances
-			(project "fuente-alimentacion"
+			(project "alimentacion-12v"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "#PWR08")
 					(unit 1)
@@ -1892,7 +1892,7 @@
 			(uuid "f7f4b7a5-062b-4fbf-aef0-5e3b335b75d8")
 		)
 		(instances
-			(project "fuente-alimentacion"
+			(project "alimentacion-12v"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "#FLG03")
 					(unit 1)
@@ -1972,7 +1972,7 @@
 			(uuid "75653d88-e91f-45c6-bc65-1a9cfdd610ab")
 		)
 		(instances
-			(project "fuente-alimentacion"
+			(project "alimentacion-12v"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "D1")
 					(unit 1)
@@ -2050,7 +2050,7 @@
 			(uuid "218478ca-2515-4fda-8de2-2a28b78da00b")
 		)
 		(instances
-			(project "fuente-alimentacion"
+			(project "alimentacion-12v"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "#FLG02")
 					(unit 1)
@@ -2128,7 +2128,7 @@
 			(uuid "c4806e23-b771-40c2-b79c-1eab7a0c8ea1")
 		)
 		(instances
-			(project "fuente-alimentacion"
+			(project "alimentacion-12v"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "#PWR04")
 					(unit 1)
@@ -2206,7 +2206,7 @@
 			(uuid "fb224d2b-dd95-4805-aa73-31b6a33f4715")
 		)
 		(instances
-			(project "fuente-alimentacion"
+			(project "alimentacion-12v"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "#PWR01")
 					(unit 1)
@@ -2284,7 +2284,7 @@
 			(uuid "0806c7dd-2c55-40f6-a55b-713c71070ff2")
 		)
 		(instances
-			(project "fuente-alimentacion"
+			(project "alimentacion-12v"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "#PWR07")
 					(unit 1)
@@ -2362,7 +2362,7 @@
 			(uuid "ab407d46-6271-4917-ac4b-1124743ac61b")
 		)
 		(instances
-			(project "fuente-alimentacion"
+			(project "alimentacion-12v"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "#PWR020")
 					(unit 1)
@@ -2440,7 +2440,7 @@
 			(uuid "1abbd953-aa9e-4076-b1d4-4e277b68822f")
 		)
 		(instances
-			(project "fuente-alimentacion"
+			(project "alimentacion-12v"
 				(path "/18618645-9a77-4e72-b23c-6571e7d4792b"
 					(reference "#PWR018")
 					(unit 1)

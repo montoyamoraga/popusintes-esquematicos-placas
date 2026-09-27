@@ -2207,6 +2207,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25611"
+			(at 74.93 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5d4bd9e-7238-47c8-add7-bbab4db67a6a")
 		)
@@ -2761,6 +2772,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2907232"
+			(at 170.18 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24da863f-a20d-4eea-a11b-dda85647bb94")
 		)
@@ -3097,6 +3119,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2907232"
+			(at 170.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d12b3767-619f-4638-9e71-62b0d9478fa1")
 		)
@@ -3167,6 +3200,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 74.93 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25611"
 			(at 74.93 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3355,6 +3399,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25611"
+			(at 128.27 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc16c4d9-04d9-45c3-9779-9444af9fb014")
 		)
@@ -3425,6 +3480,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 74.93 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25611"
 			(at 74.93 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3896,6 +3962,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25611"
+			(at 104.14 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e8072a8-1101-47a9-9343-5af77b649e37")
 		)
@@ -3966,6 +4043,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 146.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25611"
 			(at 146.05 48.26 0)
 			(hide yes)
 			(show_name no)
