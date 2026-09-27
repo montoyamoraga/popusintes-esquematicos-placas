@@ -5947,7 +5947,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../../bloques/fuente-alimentacion/fuente-alimentacion.kicad_sch"
+		(property "Sheetfile" "fuente-alimentacion.kicad_sch"
 			(at 8.89 185.7506 0)
 			(show_name yes)
 			(do_not_autoplace no)
