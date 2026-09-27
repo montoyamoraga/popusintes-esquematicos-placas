@@ -35,7 +35,8 @@ Hay que agregar `bibliotecas` como ruta de biblioteca en KiCad (Preferencias →
 
 [popusintes.kicad_blocks](./bibliotecas/popusintes.kicad_blocks) es una biblioteca de bloques de diseño (design blocks) de KiCad 10: fragmentos de circuito que se copian dentro de cada módulo, en vez de enlazarlos como hoja jerárquica compartida. Cada módulo queda con su propia copia, congelada en la versión con que se fabricó, así que cambiar un bloque no altera las revisiones ya hechas.
 
-- [fuente-alimentacion](./bibliotecas/popusintes.kicad_blocks/fuente-alimentacion.kicad_block): conector eurorack 2x05 y diodos Schottky de protección contra polaridad inversa en ±12V.
+- [alimentacion-12v](./bibliotecas/popusintes.kicad_blocks/alimentacion-12v.kicad_block): conector eurorack 2x05 y diodos Schottky de protección contra polaridad inversa en ±12V.
+- [alimentacion-12v-5v](./bibliotecas/popusintes.kicad_blocks/alimentacion-12v-5v.kicad_block): por ahora idéntico a `alimentacion-12v`; pensado para agregarle la rama de +5V.
 
 Para usarlos:
 
