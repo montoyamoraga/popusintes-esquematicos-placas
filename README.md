@@ -5,6 +5,7 @@ Parte de la tesis de Aarón Montoya-Moraga, en el Doctorado de Artes y Humanidad
 ## Módulos
 
 - [ataconso](./docs/ataconso.md)
+- [diente](./docs/diente.md)
 - [parla](./docs/parla.md)
 - [relo](./docs/relo.md)
 - [suma](./docs/suma.md)

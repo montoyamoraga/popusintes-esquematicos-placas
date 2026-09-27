@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Regenera la tabla "Bill of materials" en docs/<modulo>.md a partir del
-.kicad_sch correspondiente (ya incluye los bloques/ jerárquicos, kicad-cli
+.kicad_sch correspondiente (ya incluye las hojas jerárquicas, kicad-cli
 aplana la jerarquía solo).
 
 Uso: python3 docs/generar_bom.py
@@ -24,6 +24,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 # como rutas relativas a ese directorio, nunca absolutas del host.
 MODULOS = [
     ("ataconso", "ataconso/ataconso-v-0-rev-c/ataconso-v-0-rev-c.kicad_sch"),
+    ("diente", "diente/diente-v-0-rev-a/diente-v-0-rev-a.kicad_sch"),
     ("parla", "parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_sch"),
     ("relo", "relo/relo-v-0-rev-a/relo-v-0-rev-a.kicad_sch"),
     ("suma", "suma/suma-v-0-rev-a/suma-v-0-rev-a.kicad_sch"),
