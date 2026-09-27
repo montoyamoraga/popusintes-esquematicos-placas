@@ -32,9 +32,14 @@ Hay que agregar `bibliotecas` como ruta de biblioteca en KiCad (Preferencias →
 
 ## Bloques reutilizables
 
-[bloques](./bloques) contiene esquemáticos compartidos que se insertan como hoja jerárquica (hierarchical sheet) en otros proyectos de KiCad, en vez de duplicar los mismos componentes en cada módulo.
+[popusintes.kicad_blocks](./bibliotecas/popusintes.kicad_blocks) es una biblioteca de bloques de diseño (design blocks) de KiCad 10: fragmentos de circuito que se copian dentro de cada módulo, en vez de enlazarlos como hoja jerárquica compartida. Cada módulo queda con su propia copia, congelada en la versión con que se fabricó, así que cambiar un bloque no altera las revisiones ya hechas.
 
-- [fuente-alimentacion](./bloques/fuente-alimentacion): conector eurorack 2x05, diodos Schottky de protección contra polaridad inversa en ±12V, y un regulador 7805 para obtener +5V.
-- [salida](./bloques/salida): dos buffers de salida de audio (un TL072 completo, usando sus dos mitades A y B en configuración de seguidor de voltaje) con acoplo AC de entrada y salida, y jack de 3.5mm cada uno. Tiene dos entradas jerárquicas, `IN_A` e `IN_B`, una por canal. Si un módulo solo necesita una salida, se conecta solo `IN_A` (o `IN_B`) y se deja la otra sin conectar (con bandera de no conexión en el símbolo de hoja); el canal no usado simplemente no se puebla en la placa.
+- [fuente-alimentacion](./bibliotecas/popusintes.kicad_blocks/fuente-alimentacion.kicad_block): conector eurorack 2x05 y diodos Schottky de protección contra polaridad inversa en ±12V.
 
-La [plantilla](./plantillas/kicad/plantilla-popusintes) ya incluye este bloque como hoja jerárquica, así que los módulos nuevos creados a partir de ella lo heredan automáticamente. Los módulos existentes (ataconso, parla, relo) todavía tienen su propia fuente de alimentación dibujada directamente en el esquemático.
+Para usarlos:
+
+1. Registrar la biblioteca en Preferencias → Administrar bibliotecas de bloques de diseño. La [plantilla](./plantillas/kicad/plantilla-popusintes) ya trae una tabla de proyecto (`design-block-lib-table`) que apunta a `${KIPRJMOD}/../../bibliotecas/popusintes.kicad_blocks`, válida para proyectos ubicados en `<modulo>/<modulo>-v-X-rev-Y/`.
+2. En el editor de esquemáticos, abrir el panel de bloques de diseño y colocar el bloque, ya sea en línea o como hoja (_place as sheet_).
+3. Para agregar o actualizar un bloque, seleccionar el circuito en un esquemático y guardarlo en la biblioteca desde el mismo panel.
+
+Los módulos que usaban la hoja compartida antigua ([suma-v-0-rev-a](./suma/suma-v-0-rev-a) y [ataconso-v-0-rev-c](./ataconso/ataconso-v-0-rev-c)) ahora tienen su propia copia de `fuente-alimentacion.kicad_sch` junto al proyecto. Parla y relo tienen la fuente de alimentación dibujada directamente en el esquemático.
