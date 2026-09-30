@@ -517,7 +517,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../chufe-v-0-rev-a-fab/",
       "specctra_dsn": "",
       "vrml": ""
     },
