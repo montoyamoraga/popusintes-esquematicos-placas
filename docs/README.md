@@ -3,6 +3,7 @@
 Documentación por módulo, incluyendo la lista de materiales bill of materials (BOM) de cada uno.
 
 - [ataconso](./ataconso.md)
+- [chufe](./chufe.md)
 - [diente](./diente.md)
 - [parla](./parla.md)
 - [relo](./relo.md)

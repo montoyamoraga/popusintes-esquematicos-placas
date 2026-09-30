@@ -24,6 +24,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 # como rutas relativas a ese directorio, nunca absolutas del host.
 MODULOS = [
     ("ataconso", "ataconso/ataconso-v-0-rev-c/ataconso-v-0-rev-c.kicad_sch"),
+    ("chufe", "chufe/chufe-v-0-rev-a/chufe-v-0-rev-a.kicad_sch"),
     ("diente", "diente/diente-v-0-rev-a/diente-v-0-rev-a.kicad_sch"),
     ("parla", "parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_sch"),
     ("relo", "relo/relo-v-0-rev-a/relo-v-0-rev-a.kicad_sch"),
