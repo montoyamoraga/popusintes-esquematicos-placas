@@ -19,6 +19,7 @@ Generados automáticamente por GitHub Actions a partir de `chufe/chufe-v-0-rev-a
 Generado a partir de `chufe/chufe-v-0-rev-a/chufe-v-0-rev-a.kicad_sch`.
 
 <!-- BOM_TABLE_START -->
+
 | Referencias | Cantidad | Valor | Huella | Descripción |
 | --- | --- | --- | --- | --- |
 | C1, C2 | 2 | 100n | Capacitor_SMD:C_0805_2012Metric | Capacitor cerámico |
@@ -34,4 +35,5 @@ Generado a partir de `chufe/chufe-v-0-rev-a/chufe-v-0-rev-a.kicad_sch`.
 | U2 | 1 | L7805 | Package_TO_SOT_SMD:TO-252-2 | Regulador de voltaje lineal +5V |
 
 22 componentes en total.
+
 <!-- BOM_TABLE_END -->

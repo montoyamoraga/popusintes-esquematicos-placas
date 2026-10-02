@@ -19,6 +19,7 @@ Generado a partir de `relo/relo-v-0-rev-a/relo-v-0-rev-a.kicad_sch`.
 Esta revisión está en progreso: algunos componentes todavía tienen el valor por defecto de la biblioteca (`C_Polarized`) en vez de un valor real. Esta BOM es un punto de partida, no una lista final para comprar partes.
 
 <!-- BOM_TABLE_START -->
+
 | Referencias | Cantidad | Valor | Huella | Descripción |
 | --- | --- | --- | --- | --- |
 | C1, C2 | 2 | 1u | *(sin huella asignada)* | Capacitor electrolítico |
@@ -35,4 +36,5 @@ Esta revisión está en progreso: algunos componentes todavía tienen el valor p
 | U2 | 1 | TL072 | *(sin huella asignada)* | Amplificador operacional dual |
 
 21 componentes en total. Los ítems marcados *(sin huella asignada)* todavía no están completos en el esquemático — hay que completarlos antes de generar gerbers o comprar partes para esta revisión.
+
 <!-- BOM_TABLE_END -->

@@ -17,6 +17,7 @@ Generados automáticamente por GitHub Actions a partir de `parla/parla-v-0-rev-c
 Generado a partir de `parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_sch`.
 
 <!-- BOM_TABLE_START -->
+
 | Referencias | Cantidad | Valor | Huella | Descripción |
 | --- | --- | --- | --- | --- |
 | C1, C2 | 2 | 470n | Capacitor_SMD:C_Elec_4x5.4 | Capacitor cerámico |
@@ -32,4 +33,5 @@ Generado a partir de `parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_sch`.
 | U2 | 1 | PAM8403D | Package_SO:SOP-16_4.4x10.4mm_P1.27mm | Amplificador de audio clase D |
 
 19 componentes en total.
+
 <!-- BOM_TABLE_END -->

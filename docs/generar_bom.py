@@ -118,7 +118,9 @@ def actualizar_doc(nombre: str, tabla: str) -> None:
     patron = re.compile(
         re.escape(INICIO_MARCA) + r".*?" + re.escape(FIN_MARCA), re.S
     )
-    reemplazo = f"{INICIO_MARCA}\n{tabla}\n{FIN_MARCA}"
+    # Líneas en blanco alrededor de la tabla: sin ellas kramdown (Jekyll) la
+    # funde con el comentario HTML en un párrafo y no la renderiza como tabla.
+    reemplazo = f"{INICIO_MARCA}\n\n{tabla}\n\n{FIN_MARCA}"
     nuevo_texto, n = patron.subn(reemplazo, texto)
     if n == 0:
         print(f"[error] no se encontraron las marcas {INICIO_MARCA}/{FIN_MARCA} en {doc_path}", file=sys.stderr)

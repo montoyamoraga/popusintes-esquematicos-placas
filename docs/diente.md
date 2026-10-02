@@ -17,6 +17,7 @@ Generados automáticamente por GitHub Actions a partir de `diente/diente-v-0-rev
 Generado a partir de `diente/diente-v-0-rev-a/diente-v-0-rev-a.kicad_sch`.
 
 <!-- BOM_TABLE_START -->
+
 | Referencias | Cantidad | Valor | Huella | Descripción |
 | --- | --- | --- | --- | --- |
 | D1, D2 | 2 | D_Schottky | easyeda2kicad:SOD-123FL_L2.8-W1.8-LS3.7-R-RD | Diodo Schottky |
@@ -24,4 +25,5 @@ Generado a partir de `diente/diente-v-0-rev-a/diente-v-0-rev-a.kicad_sch`.
 | U1 | 1 | TL074 | *(sin huella asignada)* | Amplifier_Operational:TL074 |
 
 4 componentes en total. Los ítems marcados *(sin huella asignada)* todavía no están completos en el esquemático — hay que completarlos antes de generar gerbers o comprar partes para esta revisión.
+
 <!-- BOM_TABLE_END -->
