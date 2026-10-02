@@ -17,6 +17,7 @@ Generados automáticamente por GitHub Actions a partir de `suma/suma-v-0-rev-a/s
 Generado a partir de `suma/suma-v-0-rev-a/suma-v-0-rev-a.kicad_sch`.
 
 <!-- BOM_TABLE_START -->
+
 | Referencias | Cantidad | Valor | Huella | Descripción |
 | --- | --- | --- | --- | --- |
 | D1, D2 | 2 | D_Schottky | easyeda2kicad:SOD-123FL_L2.8-W1.8-LS3.7-R-RD | Diodo Schottky |
@@ -28,4 +29,5 @@ Generado a partir de `suma/suma-v-0-rev-a/suma-v-0-rev-a.kicad_sch`.
 | U1 | 1 | TL072 | suma-v-0-rev-a:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL | Amplificador operacional dual |
 
 20 componentes en total.
+
 <!-- BOM_TABLE_END -->

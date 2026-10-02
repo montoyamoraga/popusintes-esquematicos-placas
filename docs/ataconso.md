@@ -19,6 +19,7 @@ Generados automáticamente por GitHub Actions a partir de `ataconso/ataconso-v-0
 Generado a partir de `ataconso/ataconso-v-0-rev-c/ataconso-v-0-rev-c.kicad_sch`.
 
 <!-- BOM_TABLE_START -->
+
 | Referencias | Cantidad | Valor | Huella | Descripción |
 | --- | --- | --- | --- | --- |
 | C1, C2, C3, C4, C5, C6, C8 | 7 | 100n | Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder | Capacitor cerámico |
@@ -34,4 +35,5 @@ Generado a partir de `ataconso/ataconso-v-0-rev-c/ataconso-v-0-rev-c.kicad_sch`.
 | U2 | 1 | NA556 | Package_SO:SOIC-14W_7.5x9mm_P1.27mm | Temporizador doble 556 |
 
 19 componentes en total. Los ítems marcados *(sin huella asignada)* todavía no están completos en el esquemático — hay que completarlos antes de generar gerbers o comprar partes para esta revisión.
+
 <!-- BOM_TABLE_END -->
