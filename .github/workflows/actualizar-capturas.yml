@@ -15,6 +15,8 @@ on:
       - "ataconso/ataconso-v-0-rev-c/ataconso-v-0-rev-c.kicad_pcb"
       - "chufe/chufe-v-0-rev-a/chufe-v-0-rev-a.kicad_sch"
       - "chufe/chufe-v-0-rev-a/chufe-v-0-rev-a.kicad_pcb"
+      - "chufebu/chufebu-v-0-rev-a/chufebu-v-0-rev-a.kicad_sch"
+      - "chufebu/chufebu-v-0-rev-a/chufebu-v-0-rev-a.kicad_pcb"
       - "diente/diente-v-0-rev-a/diente-v-0-rev-a.kicad_sch"
       - "diente/diente-v-0-rev-a/diente-v-0-rev-a.kicad_pcb"
       - "parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_sch"
@@ -28,6 +30,7 @@ on:
       # de arriba, pero sí cambia su BOM aplanado y su esquemático renderizado.
       - "ataconso/ataconso-v-0-rev-c/*.kicad_sch"
       - "chufe/chufe-v-0-rev-a/*.kicad_sch"
+      - "chufebu/chufebu-v-0-rev-a/*.kicad_sch"
       - "diente/diente-v-0-rev-a/*.kicad_sch"
       - "parla/parla-v-0-rev-c/*.kicad_sch"
       - "relo/relo-v-0-rev-a/*.kicad_sch"
@@ -91,6 +94,9 @@ jobs:
           generar_esquematico chufe chufe/chufe-v-0-rev-a/chufe-v-0-rev-a.kicad_sch
           generar_placa       chufe chufe/chufe-v-0-rev-a/chufe-v-0-rev-a.kicad_pcb
 
+          generar_esquematico chufebu chufebu/chufebu-v-0-rev-a/chufebu-v-0-rev-a.kicad_sch
+          generar_placa       chufebu chufebu/chufebu-v-0-rev-a/chufebu-v-0-rev-a.kicad_pcb
+
           generar_esquematico diente diente/diente-v-0-rev-a/diente-v-0-rev-a.kicad_sch
           generar_placa       diente diente/diente-v-0-rev-a/diente-v-0-rev-a.kicad_pcb
 
@@ -117,7 +123,7 @@ jobs:
           set -eu
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/images docs/ataconso.md docs/chufe.md docs/diente.md docs/parla.md docs/relo.md docs/suma.md
+          git add docs/images docs/ataconso.md docs/chufe.md docs/chufebu.md docs/diente.md docs/parla.md docs/relo.md docs/suma.md
           if git diff --cached --quiet; then
             echo "Sin cambios en las capturas ni la BOM."
             exit 0

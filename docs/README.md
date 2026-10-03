@@ -4,6 +4,7 @@ Documentación por módulo, incluyendo la lista de materiales bill of materials 
 
 - [ataconso](./ataconso.md)
 - [chufe](./chufe.md)
+- [chufebu](./chufebu.md)
 - [diente](./diente.md)
 - [parla](./parla.md)
 - [relo](./relo.md)
