@@ -4025,7 +4025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "076bdfbe-c686-4b34-ab79-83197e2e08e1")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR024"
 			(at 252.73 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4085,7 +4085,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR052")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4103,7 +4103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ddfd8f4-2df0-4d7e-9a79-5b5a2247f8c2")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR025"
 			(at 254 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4163,7 +4163,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR053")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4263,7 +4263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "167775f9-7c9e-4318-b9bf-5086667da249")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 270.51 53.6574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4338,7 +4338,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4355,7 +4355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1dd9206c-545c-42d3-babf-020b8c83ffa3")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 129.54 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4420,7 +4420,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4560,7 +4560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ecb0028-1b2e-4fe4-a6ef-65df7b19bffc")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 33.02 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4621,7 +4621,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4639,7 +4639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f350878-012f-4e65-8791-3596b2a6021f")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR023"
 			(at 238.76 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4699,7 +4699,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR051")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4716,7 +4716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2154a4dc-7a3a-492f-9b61-8e7c94f60539")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR022"
 			(at 245.11 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4776,7 +4776,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR050")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4794,7 +4794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "323fd4a6-f35e-4a1e-a88a-963af8057e3a")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR014"
 			(at 152.4 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4854,7 +4854,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR042")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4872,7 +4872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37a02ad0-fe3f-4a8e-b265-9b551cb80547")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR012"
 			(at 97.155 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4932,7 +4932,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR025")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4950,7 +4950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c580c43-b7a3-4627-83e5-5fe42c044d8b")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR05"
 			(at 45.72 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5011,7 +5011,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR013")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5029,7 +5029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fc0c07c-f013-43fd-b304-039635b23119")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 255.27 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5093,7 +5093,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5111,7 +5111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eef931b-0c75-4435-b996-d268c0c1f11d")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR026"
 			(at 266.7 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5171,7 +5171,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR054")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5189,7 +5189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55515de4-17ed-4059-980a-283bf4e0fdf5")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR020"
 			(at 227.33 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5249,7 +5249,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR048")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5267,7 +5267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5768390d-e3c1-4ef3-92eb-56e5badcd3dc")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 269.24 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5331,7 +5331,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5349,7 +5349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cd3da47-c90d-49f4-980d-5d344ef5ad3c")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR019"
 			(at 224.79 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5409,7 +5409,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR047")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5427,7 +5427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60d65757-b56c-4eaa-ae5c-f91086ac0d98")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR08"
 			(at 58.42 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5488,7 +5488,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR022")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5506,7 +5506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67a6161e-5286-48a4-9677-8db6efd7bf30")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR011"
 			(at 97.155 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5566,7 +5566,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR062")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5584,7 +5584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c4343b6-1d1c-45fb-886a-40b5eb39968d")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR027"
 			(at 266.7 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5644,7 +5644,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR055")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5662,7 +5662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "792e0126-01d4-4d29-b6f5-95dc06c9f708")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR018"
 			(at 207.01 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5722,7 +5722,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR046")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5740,7 +5740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b2eb6fe-873b-47e2-b665-bce5c0ada6cb")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR021"
 			(at 227.33 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5800,7 +5800,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR049")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5818,7 +5818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84021d12-d3f1-4577-b3df-23eaff8f90f8")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 179.07 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5882,7 +5882,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5900,7 +5900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ab5ae72-7618-4134-b70d-eebbcdfce592")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 33.02 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5961,7 +5961,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5979,7 +5979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ee8e2b9-a5bd-4e63-bf3f-075be0819c0d")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 269.24 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6043,7 +6043,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6061,7 +6061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90d15d69-3cbd-48ee-b88f-703237119de6")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 180.34 52.3874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6136,7 +6136,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6154,7 +6154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93166320-2985-40fa-a4f7-041077eaf881")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 160.02 57.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6176,7 +6176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 157.48 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6229,7 +6229,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6329,7 +6329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "989db567-9ca3-40e3-90a4-c27c753e4916")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR09"
 			(at 88.9 88.265 0)
 			(hide yes)
 			(show_name no)
@@ -6389,7 +6389,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR060")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6407,7 +6407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98eafd55-3876-459e-871a-c48be1c324a0")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 270.51 124.7774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6482,7 +6482,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6591,7 +6591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0551d48-1b04-4cb4-83fb-e4f9e4fd0b46")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 76.835 93.345 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6659,7 +6659,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6762,7 +6762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7c68ae2-7843-4b8b-96e4-bb50ea7f8040")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR013"
 			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6822,7 +6822,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR041")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6840,7 +6840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8aa6241-a0e6-4352-be7e-7c94fb339e0b")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR015"
 			(at 176.53 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6900,7 +6900,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR043")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7000,7 +7000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b79cdbeb-a3f3-4916-b542-7b9fc22728c4")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR028"
 			(at 266.7 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -7060,7 +7060,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR056")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7078,7 +7078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9ec8212-a791-425f-b82b-6aba03fb4068")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 33.02 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7139,7 +7139,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7157,7 +7157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d61d53ae-9fdd-4970-b2dc-31fc17041c63")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR016"
 			(at 177.8 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7217,7 +7217,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR044")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7235,7 +7235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc33140a-1114-4a20-8eef-55d338775abe")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 255.27 50.4824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7310,7 +7310,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7328,7 +7328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0bdac19-747a-4b72-af2e-e7be16db3624")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR010"
 			(at 89.535 83.185 0)
 			(hide yes)
 			(show_name no)
@@ -7388,7 +7388,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR061")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7693,7 +7693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec4d4c7f-063d-4d55-9aab-5b1a7c8bd43c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR07"
 			(at 45.72 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7754,7 +7754,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR015")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7772,7 +7772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec6b6e04-8da5-44ae-b1be-3c4a4f798092")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR017"
 			(at 189.23 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7832,7 +7832,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR045")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7850,7 +7850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f81f03d8-900f-4c1f-be57-77fc9f4858ee")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR06"
 			(at 45.72 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7911,7 +7911,7 @@
 		(instances
 			(project "chufe-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR014")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
