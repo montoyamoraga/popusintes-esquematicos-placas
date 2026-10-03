@@ -838,6 +838,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power global)
 			(pin_numbers
@@ -3214,7 +3313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b53e0a4-72b1-4378-9dd3-713f84b6827e")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR042"
 			(at 126.365 66.675 0)
 			(hide yes)
 			(show_name no)
@@ -3275,7 +3374,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR038")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3293,7 +3392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0eade2bc-c349-49b0-ae9c-461b7aad99e6")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR035"
 			(at 93.345 92.075 0)
 			(hide yes)
 			(show_name no)
@@ -3353,7 +3452,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR068")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3371,7 +3470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1197bf38-c28e-4b8b-ae49-fb7065f273db")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR028"
 			(at 85.09 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3431,7 +3530,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR066")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3449,7 +3548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "160ec7f0-52dd-4baf-8271-1e17ad5e9de5")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR041"
 			(at 125.73 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3510,7 +3609,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR031")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3528,7 +3627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1869a13d-b197-400e-9b3a-8a18e89ee5de")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR047"
 			(at 138.43 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3589,7 +3688,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR034")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3607,7 +3706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18777460-6920-4d30-839f-120afa05e711")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR045"
 			(at 138.43 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3668,7 +3767,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR032")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3686,7 +3785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1baf9746-b969-4328-8c9b-ce526ec04337")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 34.925 42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3790,7 +3889,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3808,7 +3907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e3e5fb4-c7af-491e-8649-49c9f95fdda6")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 35.56 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3912,7 +4011,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3930,7 +4029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ecb0028-1b2e-4fe4-a6ef-65df7b19bffc")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 29.21 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3991,7 +4090,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4009,7 +4108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20c269d0-45a1-421e-a158-6c398ea3f001")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR05"
 			(at 28.575 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -4070,7 +4169,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR08")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4088,7 +4187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23c0dab2-581b-4ccf-a906-7f6bf30d5d25")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR053"
 			(at 181.61 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -4148,7 +4247,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR069")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4166,7 +4265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2432b0e1-a71a-4af2-848b-2316b7b59a03")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR013"
 			(at 41.275 23.495 0)
 			(hide yes)
 			(show_name no)
@@ -4227,7 +4326,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR016")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4245,7 +4344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "247e93ab-e8e3-4f85-bddc-df7455bf4e1a")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR039"
 			(at 125.73 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4306,7 +4405,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR029")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4324,7 +4423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26c0880f-effb-4630-85f1-55607e3e9adc")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR051"
 			(at 151.13 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4385,7 +4484,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR035")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4403,7 +4502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31a0433b-3630-482d-b929-4a59101678fa")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR059"
 			(at 190.5 69.215 0)
 			(hide yes)
 			(show_name no)
@@ -4463,7 +4562,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR074")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4481,7 +4580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37a02ad0-fe3f-4a8e-b265-9b551cb80547")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR034"
 			(at 93.345 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4541,7 +4640,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR025")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4638,7 +4737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c580c43-b7a3-4627-83e5-5fe42c044d8b")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 41.91 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4699,7 +4798,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4717,7 +4816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dc5c345-10ac-4fac-bde2-7bc2b93503e0")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR048"
 			(at 139.065 66.675 0)
 			(hide yes)
 			(show_name no)
@@ -4778,7 +4877,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR041")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4796,7 +4895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4920f95d-8f23-42ce-a1e5-50550cdb0aef")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR052"
 			(at 151.765 74.295 0)
 			(hide yes)
 			(show_name no)
@@ -4857,7 +4956,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR044")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4954,7 +5053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bf5413b-fcda-40fa-b928-0d7e2e7bbab0")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR056"
 			(at 182.88 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5014,7 +5113,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR073")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5032,7 +5131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f34968b-f74d-4f19-8c41-64aef15419bf")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 132.715 85.725 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5136,7 +5235,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "J9")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5154,7 +5253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60d65757-b56c-4eaa-ae5c-f91086ac0d98")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 54.61 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5215,7 +5314,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5312,7 +5411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64490c47-4d41-4bb6-869d-2d65eb916a26")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR030"
 			(at 85.725 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5372,7 +5471,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR067")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5390,7 +5489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67a6161e-5286-48a4-9677-8db6efd7bf30")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR033"
 			(at 93.345 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5450,7 +5549,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR062")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5468,7 +5567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69ab5fdf-8022-4dbd-b229-df99dd431522")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR055"
 			(at 182.245 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5528,7 +5627,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR072")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5546,7 +5645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bd5dcac-1059-41a6-b89c-0e43f7e422be")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR060"
 			(at 190.5 78.105 0)
 			(hide yes)
 			(show_name no)
@@ -5606,7 +5705,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR045")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5624,7 +5723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "746e658a-e87a-42c1-b1c2-59e2a8401c43")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR04"
 			(at 28.575 23.495 0)
 			(hide yes)
 			(show_name no)
@@ -5685,7 +5784,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR07")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5703,7 +5802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77328859-395f-4155-b4ae-3e7cb0d32b9a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR014"
 			(at 41.275 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -5764,7 +5863,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR017")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5861,7 +5960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "803e43a3-8683-4a30-b9b1-51d520a17850")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR036"
 			(at 93.345 100.965 0)
 			(hide yes)
 			(show_name no)
@@ -5921,7 +6020,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR027")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5939,7 +6038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83a65f3c-baa1-4b24-8fdc-a42fc5ad1f10")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 53.975 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -6000,7 +6099,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6104,7 +6203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ab5ae72-7618-4134-b70d-eebbcdfce592")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR09"
 			(at 29.21 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6165,7 +6264,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR06")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6183,7 +6282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cacffa1-0ede-48c4-b9b6-1be1df541769")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR044"
 			(at 126.365 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -6244,7 +6343,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR040")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6262,7 +6361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "989db567-9ca3-40e3-90a4-c27c753e4916")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR027"
 			(at 85.09 62.865 0)
 			(hide yes)
 			(show_name no)
@@ -6322,7 +6421,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR060")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6340,7 +6439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98a2b8fe-6eaa-42c4-b5cf-acebec1649bb")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR054"
 			(at 182.245 37.465 0)
 			(hide yes)
 			(show_name no)
@@ -6400,7 +6499,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR070")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6418,7 +6517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9926b88d-2b6f-4fe3-b990-6a11324bc1ab")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR057"
 			(at 189.865 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6478,7 +6577,83 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR071")
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 144.78 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99a7a474-a920-4535-be6d-645494c0b7ea")
+		(property "Reference" "H1"
+			(at 147.32 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 147.32 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 144.78 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 144.78 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "chufebu-v-0-rev-a"
+				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6496,7 +6671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bb9b7b4-6134-4d16-9cba-62b7740b9bd2")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR049"
 			(at 139.065 69.215 0)
 			(hide yes)
 			(show_name no)
@@ -6557,7 +6732,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR042")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6654,7 +6829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0551d48-1b04-4cb4-83fb-e4f9e4fd0b46")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 73.025 67.945 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6722,7 +6897,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6740,7 +6915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd52f39-f859-4613-b44c-0c12f44d55b7")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR031"
 			(at 92.71 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -6800,7 +6975,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR065")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6818,7 +6993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad7e8eb7-c200-4bb2-b5d0-28ca9b0a6529")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR025"
 			(at 84.455 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6878,7 +7053,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR063")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7219,7 +7394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba821152-c2ee-431c-bb7e-87e351f0355a")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 169.545 47.625 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7287,7 +7462,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -7305,7 +7480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c467dbce-e8e0-4d4c-b176-20ec0a985bba")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 15.875 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -7366,7 +7541,83 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR02")
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 168.91 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5b0d47a-a8b1-428e-9666-67851ca4e6ef")
+		(property "Reference" "H2"
+			(at 171.45 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 171.45 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 168.91 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 168.91 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "chufebu-v-0-rev-a"
+				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7384,7 +7635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9ec8212-a791-425f-b82b-6aba03fb4068")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 29.21 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7445,7 +7696,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7463,7 +7714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc811958-e32d-4f3f-9b86-f72141157da2")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR043"
 			(at 126.365 69.215 0)
 			(hide yes)
 			(show_name no)
@@ -7524,7 +7775,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR039")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7542,7 +7793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce1e2ba3-2c3e-49f1-bf88-e96bf37c97b8")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR037"
 			(at 113.03 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7603,7 +7854,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR028")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7621,7 +7872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0a5a2a1-2e28-46cd-a2e6-4657834228ee")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 113.665 74.295 0)
 			(hide yes)
 			(show_name no)
@@ -7682,7 +7933,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7700,7 +7951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc3ce192-cb6a-4d7e-a94a-05e61281c938")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR06"
 			(at 28.575 36.195 0)
 			(hide yes)
 			(show_name no)
@@ -7761,7 +8012,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR09")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7779,7 +8030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd682a04-7fca-42fe-bf5c-6a2000e1bb1f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 41.275 36.195 0)
 			(hide yes)
 			(show_name no)
@@ -7840,7 +8091,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7858,7 +8109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddf04f88-d87f-4420-8691-3334c391043d")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR046"
 			(at 138.43 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7919,7 +8170,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR033")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7937,7 +8188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0bdac19-747a-4b72-af2e-e7be16db3624")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR029"
 			(at 85.725 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -7997,7 +8248,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR061")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8015,7 +8266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e13e34c3-eaa1-4868-856f-db222bfdaa6a")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR058"
 			(at 189.865 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8075,7 +8326,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR036")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -8172,7 +8423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4010fa2-826a-4731-819b-dee794f0237d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 16.51 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8233,7 +8484,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8251,7 +8502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5a8f34a-7013-493a-9432-6f4b362cebc3")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR032"
 			(at 92.71 34.925 0)
 			(hide yes)
 			(show_name no)
@@ -8311,7 +8562,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR026")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8408,7 +8659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb8f4d9a-314e-462c-9bf1-c4b6824b35e1")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 72.39 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8476,7 +8727,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8494,7 +8745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec4d4c7f-063d-4d55-9aab-5b1a7c8bd43c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 41.91 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8555,7 +8806,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8573,7 +8824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efd51778-2cac-40e6-91f3-136e933b58fe")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR040"
 			(at 125.73 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8634,7 +8885,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR030")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8652,7 +8903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5689ba3-894e-482e-ab63-086fdc9c4137")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR050"
 			(at 139.065 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -8713,7 +8964,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR043")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8731,7 +8982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f81f03d8-900f-4c1f-be57-77fc9f4858ee")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 41.91 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8792,7 +9043,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8810,7 +9061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbbf8880-3779-41c1-af22-64be389ac5e9")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR026"
 			(at 85.09 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -8870,7 +9121,7 @@
 		(instances
 			(project "chufebu-v-0-rev-a"
 				(path "/76d7d92c-1316-4bcb-a187-c7124ef49ded"
-					(reference "#PWR064")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
