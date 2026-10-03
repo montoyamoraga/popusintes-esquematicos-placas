@@ -25,13 +25,14 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 MODULOS = [
     ("ataconso", "ataconso/ataconso-v-0-rev-c/ataconso-v-0-rev-c.kicad_sch"),
     ("chufe", "chufe/chufe-v-0-rev-a/chufe-v-0-rev-a.kicad_sch"),
+    ("chufebu", "chufebu/chufebu-v-0-rev-a/chufebu-v-0-rev-a.kicad_sch"),
     ("diente", "diente/diente-v-0-rev-a/diente-v-0-rev-a.kicad_sch"),
     ("parla", "parla/parla-v-0-rev-c/parla-v-0-rev-c.kicad_sch"),
     ("relo", "relo/relo-v-0-rev-a/relo-v-0-rev-a.kicad_sch"),
     ("suma", "suma/suma-v-0-rev-a/suma-v-0-rev-a.kicad_sch"),
 ]
 
-# lib_id ("Libreria:Nombre") -> descripcion en español, para la columna
+# lib_id ("Biblioteca:Nombre") -> descripcion en español, para la columna
 # Descripción de la tabla. Si aparece un lib_id que no está acá, el script
 # avisa por stderr y usa el lib_id tal cual como descripción de respaldo.
 DESCRIPCIONES = {
@@ -44,6 +45,8 @@ DESCRIPCIONES = {
     "Amplifier_Audio:PAM8403D": "Amplificador de audio clase D",
     "Connector_Audio:AudioJack2_SwitchT": "Jack de audio 3.5mm",
     "Connector_Generic:Conn_02x05_Odd_Even": "Header de alimentación Eurorack (10 pines)",
+    "Connector_Generic:Conn_02x08_Odd_Even": "Header de alimentación Eurorack (16 pines)",
+    "Connector:Conn_01x04_Pin": "Conector de alimentación (4 pines)",
     "Timer:NA556": "Temporizador doble 556",
     "Regulator_Linear:L7805": "Regulador de voltaje lineal +5V",
 }
