@@ -481,7 +481,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "~chufe-v-0-rev-a.kicad_pro",
+    "filename": "chufebu-v-0-rev-a.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -517,7 +517,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../chufe-v-0-rev-a-fab/",
+      "plot": "../chufebu-v-0-rev-a-fab/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -629,6 +629,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -636,18 +644,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "~chufe-v-0-rev-a.kicad_sch",
-        "name": "~chufe-v-0-rev-a",
+        "filename": "chufebu-v-0-rev-a.kicad_sch",
+        "name": "chufebu-v-0-rev-a",
         "uuid": "76d7d92c-1316-4bcb-a187-c7124ef49ded"
       }
     ],
-    "used_designators": "J2-3,J5-10,#PWR2-3,#PWR7-12,#PWR16-21,#PWR23-24,#PWR26-45,#PWR63-74",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "76d7d92c-1316-4bcb-a187-c7124ef49ded",
-      "~chufe-v-0-rev-a"
+      "chufebu-v-0-rev-a"
     ]
   ],
   "text_variables": {},
