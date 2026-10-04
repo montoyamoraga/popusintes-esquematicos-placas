@@ -24,6 +24,10 @@ pip install -r requirements.txt
 
 `env/` está en `.gitignore`, así que hay que crearlo localmente antes de correr herramientas como `kicad-cli` o `easyeda2kicad`.
 
+## Capturas y Bill of materials
+
+Las capturas de esquemáticos y placas en [docs/images](./docs/images) y las tablas de Bill of materials en `docs/*.md` las genera [kicad-retrata](https://github.com/piruetasxyz/kicad-retrata) con GitHub Actions en cada push que cambia un archivo de KiCad. Los módulos y su revisión activa se configuran en [kicad-retrata.yml](./kicad-retrata.yml): para pasar un módulo a una nueva revisión basta con cambiar su `proyecto` ahí.
+
 ## Bibliotecas
 
 Las bibliotecas de KiCad (símbolos, huellas y modelos 3D) están en [bibliotecas](./bibliotecas):
