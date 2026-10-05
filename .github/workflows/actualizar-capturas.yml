@@ -36,5 +36,22 @@ jobs:
       - name: Clonar repositorio
         uses: actions/checkout@v4
 
+      # Talagante no puede quedar pública en el repositorio: se guarda en
+      # base64 en el secreto FUENTE_TALAGANTE y se escribe fuera del
+      # repositorio, para que no termine en el commit de kicad-retrata.
+      - name: Instalar fuentes privadas
+        env:
+          FUENTE_TALAGANTE: ${{ secrets.FUENTE_TALAGANTE }}
+        run: |
+          set -eu
+          if [ -z "$FUENTE_TALAGANTE" ]; then
+            echo "::error::Falta el secreto FUENTE_TALAGANTE."
+            exit 1
+          fi
+          mkdir -p "$RUNNER_TEMP/fuentes"
+          printf '%s' "$FUENTE_TALAGANTE" | base64 --decode > "$RUNNER_TEMP/fuentes/Talagante.otf"
+
       - name: Retratar con kicad-retrata
-        uses: piruetasxyz/kicad-retrata@v0.0.1
+        uses: piruetasxyz/kicad-retrata@v0
+        with:
+          carpeta-fuentes: ${{ runner.temp }}/fuentes
