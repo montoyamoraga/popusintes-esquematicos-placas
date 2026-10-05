@@ -26,7 +26,7 @@ Esta revisión está en progreso: algunos componentes todavía tienen el valor p
 | C3, C4 | 2 | 100n | Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder | Capacitor cerámico |
 | C5, C6 | 2 | C_Polarized | *(sin huella asignada)* | Capacitor electrolítico |
 | D1, D2 | 2 | D_Schottky | *(sin huella asignada)* | Diodo Schottky |
-| J1 | 1 | Conn_02x05_Odd_Even | relo-v-0-rev-a:IDC-Header_2x05_P2.54mm_Vertical | Header de alimentación Eurorack (10 pines) |
+| J1 | 1 | Conn_02x05_Odd_Even | relo-v-0-rev-a:IDC-Header_2x05_P2.54mm_Vertical | Header 2x05 |
 | J2, J3 | 2 | AudioJack2_SwitchT | relo-v-0-rev-a:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical | Jack de audio 3.5mm |
 | R1, R2 | 2 | 1k | *(sin huella asignada)* | Resistencia |
 | R3, R5 | 2 | 10k | *(sin huella asignada)* | Resistencia |

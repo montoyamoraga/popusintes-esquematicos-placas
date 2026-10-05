@@ -26,7 +26,7 @@ Generado a partir de `ataconso/ataconso-v-0-rev-c/ataconso-v-0-rev-c.kicad_sch`.
 | C7 | 1 | 1u | *(sin huella asignada)* | Capacitor electrolítico |
 | D1, D2 | 2 | D_Schottky | easyeda2kicad:SOD-123FL_L2.8-W1.8-LS3.7-R-RD | Diodo Schottky |
 | J1 | 1 | AudioJack2_SwitchT | ataconso-v-0-rev-c:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical | Jack de audio 3.5mm |
-| J2 | 1 | Conn_02x05_Odd_Even | BYOM_General:IDC-Header_2x05_P2.54mm_Vertical | Header de alimentación Eurorack (10 pines) |
+| J2 | 1 | Conn_02x05_Odd_Even | BYOM_General:IDC-Header_2x05_P2.54mm_Vertical | Header 2x05 |
 | R1 | 1 | 10k | *(sin huella asignada)* | Resistencia |
 | R2 | 1 | 1k | *(sin huella asignada)* | Resistencia |
 | R3 | 1 | 100k | *(sin huella asignada)* | Resistencia |

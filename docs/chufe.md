@@ -24,16 +24,16 @@ Generado a partir de `chufe/chufe-v-0-rev-a/chufe-v-0-rev-a.kicad_sch`.
 | --- | --- | --- | --- | --- |
 | C1, C2 | 2 | 100n | Capacitor_SMD:C_0805_2012Metric | Capacitor cerámico |
 | C3 | 1 | 22u | Capacitor_SMD:CP_Elec_4x5.4 | Capacitor electrolítico |
-| D1 | 1 | BZT52C5V6 | Diode_SMD:D_SOD-123 | Device:D_Zener |
-| D2, D3, D4, D5 | 4 | LED | LED_THT:LED_D3.0mm | Device:LED |
-| J1 | 1 | Conn_02x08_Odd_Even | Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical | Header de alimentación Eurorack (16 pines) |
-| J2 | 1 | Conn_01x04_Pin | Connector_Molex:Molex_KK-396_5273-04A_1x04_P3.96mm_Vertical | Conector de alimentación (4 pines) |
-| J3 | 1 | Barrel_Jack_Switch | Connector_BarrelJack:BarrelJack_Horizontal | Connector:Barrel_Jack_Switch |
-| Q1 | 1 | AO3401A | Package_TO_SOT_SMD:SOT-23 | Transistor_FET:Q_PMOS_GSD |
+| D1 | 1 | BZT52C5V6 | Diode_SMD:D_SOD-123 | Diodo Zener |
+| D2, D3, D4, D5 | 4 | LED | LED_THT:LED_D3.0mm | LED |
+| J1 | 1 | Conn_02x08_Odd_Even | Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical | Header 2x08 |
+| J2 | 1 | Conn_01x04_Pin | Connector_Molex:Molex_KK-396_5273-04A_1x04_P3.96mm_Vertical | Conector macho 1x04 |
+| J3 | 1 | Barrel_Jack_Switch | Connector_BarrelJack:BarrelJack_Horizontal | Jack de alimentación (barrel) |
+| Q1 | 1 | AO3401A | Package_TO_SOT_SMD:SOT-23 | Transistor MOSFET canal P |
 | R1 | 1 | 22k | Resistor_SMD:R_0805_2012Metric | Resistencia |
 | R2, R3, R4 | 3 | 10k | Resistor_SMD:R_0805_2012Metric | Resistencia |
 | R5 | 1 | 2k2 | Resistor_SMD:R_0805_2012Metric | Resistencia |
-| U1 | 1 | URA2412YMD-20WR3_C5369773 | easyeda2kicad:PWRM-TH_YLPTEC_VRBXXXXYMD-20WR3 | easyeda2kicad:URA2412YMD-20WR3_C5369773 |
+| U1 | 1 | URA2412YMD-20WR3_C5369773 | easyeda2kicad:PWRM-TH_YLPTEC_VRBXXXXYMD-20WR3 | Convertidor DC-DC aislado ±12V |
 | U2 | 1 | L7805 | Package_TO_SOT_SMD:TO-252-2 | Regulador de voltaje lineal +5V |
 
 19 componentes en total.
