@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "rev-a"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -663,10 +663,6 @@
     [
       "76d7d92c-1316-4bcb-a187-c7124ef49ded",
       "suma-v-0-rev-a"
-    ],
-    [
-      "5c6d5cb3-5959-42c3-b1d0-4c4c9800b6eb",
-      "Fuente de alimentación"
     ]
   ],
   "text_variables": {},
