@@ -10,7 +10,7 @@ Parte de la tesis de Aarón Montoya-Moraga, en el Doctorado de Artes y Humanidad
 - [diente](./docs/diente.md)
 - [parla](./docs/parla.md)
 - [relo](./docs/relo.md)
-- [suma](./docs/suma.md)
+- [suma](https://github.com/piruetasxyz/suma): ahora en su propio repositorio.
 
 ## Desarrollo
 
@@ -50,4 +50,4 @@ Para usarlos:
 2. En el editor de esquemáticos, abrir el panel de bloques de diseño y colocar el bloque, ya sea en línea o como hoja (_place as sheet_).
 3. Para agregar o actualizar un bloque, seleccionar el circuito en un esquemático y guardarlo en la biblioteca desde el mismo panel.
 
-Los módulos que usaban la hoja compartida antigua ([suma-v-0-rev-a](./suma/suma-v-0-rev-a) y [ataconso-v-0-rev-c](./ataconso/ataconso-v-0-rev-c)) ahora tienen su propia copia de `fuente-alimentacion.kicad_sch` junto al proyecto. Parla y relo tienen la fuente de alimentación dibujada directamente en el esquemático.
+Ataconso, que usaba la hoja compartida antigua, ahora tiene en [ataconso-v-0-rev-c](./ataconso/ataconso-v-0-rev-c) su propia copia de `fuente-alimentacion.kicad_sch` junto al proyecto. Parla y relo tienen la fuente de alimentación dibujada directamente en el esquemático.

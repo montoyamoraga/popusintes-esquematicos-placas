@@ -39,6 +39,3 @@ modulos:
   - nombre: relo
     proyecto: relo/relo-v-0-rev-a/relo-v-0-rev-a
     doc: docs/relo.md
-  - nombre: suma
-    proyecto: suma/suma-v-0-rev-a/suma-v-0-rev-a
-    doc: docs/suma.md
